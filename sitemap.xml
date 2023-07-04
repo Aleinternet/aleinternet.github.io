@@ -24,6 +24,70 @@
   
     
       <url>
+            <loc>/cosas/1/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/cosas/2/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/cosas/3/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/cosas/4/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/cosas/5/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/cosas/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/markdown/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>/portafolio/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -41,18 +105,18 @@
     
   
     
-  
-    
       <url>
-            <loc>/universidad/</loc>
+            <loc>/shortcodes/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
     
   
     
+  
+    
       <url>
-            <loc>/</loc>
+            <loc>/universidad/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
