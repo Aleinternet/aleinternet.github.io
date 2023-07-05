@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on Blowfish</title>
-    <link>/markdown/</link>
-    <description>Recent content in Markdown on Blowfish</description>
+    <title>Markdown on Alein TheThings</title>
+    <link>https://aleinternet.github.io/markdown/</link>
+    <description>Recent content in Markdown on Alein TheThings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://aleinternet.github.io/markdown/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

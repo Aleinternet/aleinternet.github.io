@@ -6,7 +6,7 @@
   
     
       <url>
-            <loc>/bibliografia/</loc>
+            <loc>https://aleinternet.github.io/bibliografia/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -16,7 +16,7 @@
   
     
       <url>
-            <loc>/contacto/</loc>
+            <loc>https://aleinternet.github.io/contacto/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -24,7 +24,7 @@
   
     
       <url>
-            <loc>/cosas/1/</loc>
+            <loc>https://aleinternet.github.io/cosas/1/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -32,7 +32,7 @@
   
     
       <url>
-            <loc>/cosas/2/</loc>
+            <loc>https://aleinternet.github.io/cosas/2/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -40,7 +40,7 @@
   
     
       <url>
-            <loc>/cosas/3/</loc>
+            <loc>https://aleinternet.github.io/cosas/3/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -48,7 +48,7 @@
   
     
       <url>
-            <loc>/cosas/4/</loc>
+            <loc>https://aleinternet.github.io/cosas/4/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -56,7 +56,7 @@
   
     
       <url>
-            <loc>/cosas/5/</loc>
+            <loc>https://aleinternet.github.io/cosas/5/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -64,7 +64,7 @@
   
     
       <url>
-            <loc>/cosas/</loc>
+            <loc>https://aleinternet.github.io/cosas/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -72,7 +72,7 @@
   
     
       <url>
-            <loc>/markdown/</loc>
+            <loc>https://aleinternet.github.io/universidad/ramos/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -80,7 +80,7 @@
   
     
       <url>
-            <loc>/</loc>
+            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia-2/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -88,7 +88,7 @@
   
     
       <url>
-            <loc>/portafolio/</loc>
+            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia-3/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -96,7 +96,47 @@
   
     
       <url>
-            <loc>/proyectos/</loc>
+            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/taller_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/markdown/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/portafolio/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/proyectos/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -106,7 +146,7 @@
   
     
       <url>
-            <loc>/shortcodes/</loc>
+            <loc>https://aleinternet.github.io/shortcodes/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -116,7 +156,7 @@
   
     
       <url>
-            <loc>/universidad/</loc>
+            <loc>https://aleinternet.github.io/universidad/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
