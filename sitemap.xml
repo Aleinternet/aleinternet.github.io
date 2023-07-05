@@ -80,38 +80,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia-2/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia-3/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/tallerinterfaces-copia/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/taller_productos/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/markdown/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -121,6 +89,350 @@
     
       <url>
             <loc>https://aleinternet.github.io/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_01_emprendedores_y_empresas/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_01_habilidades_creativas/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_metodologias_de_analisis_espacial/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_realidad_virtual_y_aumentada/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_taller_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_01_taller_integrado/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_liderazgo_2/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_literatura_2/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_modelacion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_optimizacion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_taller_dise%C3%B1o_interfaces/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_tin/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_arte/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_fab_prototipos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_historia_contemporanea_dise%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_microeconomia/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_taller_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_tem/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_electronica_aplicada/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_fabricacion_digital/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_lectura_critica/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_programacion_para_die%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_taller_espacios/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_teoria_tendencias_dise%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_cartografia_mapping/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_ciencias/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_dise%C3%B1o_construccion_interfaces/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_edo/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_procesos_fab_industria/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_taller_ecologia_entorno/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem08_etica/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem08_fep/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem08_gestion_operaciones/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem08_seminario_dise%C3%B1o_aplicado/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem08_taller_proyecto_complejo/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_animacion_1/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_historia_videojuegos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_tratamiento_digital_imagenes_01/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_animacion_2/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_guion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_ludologia_y_gamificacion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_tratamiento_digital_imagenes_02/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
