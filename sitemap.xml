@@ -80,22 +80,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/markdown/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_01_emprendedores_y_empresas/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -112,39 +96,7 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_metodologias_de_analisis_espacial/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_productos/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_02_realidad_virtual_y_aumentada/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_taller_productos/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_01_taller_integrado/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -168,23 +120,7 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem04_modelacion/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem04_optimizacion/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem04_taller_dise%C3%B1o_interfaces/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -440,6 +376,62 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/markdown/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_metodologias_de_analisis_espacial/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_taller_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_01_taller_integrado/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_modelacion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/portafolio/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -464,6 +456,14 @@
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem04_taller_dise%C3%B1o_interfaces/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
     
   
     

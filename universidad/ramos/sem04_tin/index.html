@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>MID Taller Integrado &middot; Alein TheThings</title>
-  <meta name="title" content="MID Taller Integrado &middot; Alein TheThings" />
+  <title>Fabricación de prototipos &middot; Alein TheThings</title>
+  <meta name="title" content="Fabricación de prototipos &middot; Alein TheThings" />
   
-  <meta name="description" content="La última vuelta" />
+  <meta name="description" content="Un gran Ramo" />
   
   
   
@@ -60,15 +60,15 @@
   
   
   
-  <meta property="og:title" content="MID Taller Integrado" />
-<meta property="og:description" content="La última vuelta" />
+  <meta property="og:title" content="Fabricación de prototipos" />
+<meta property="og:description" content="Un gran Ramo" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://aleinternet.github.io/universidad/ramos/sem04_tin/" /><meta property="og:image" content="https://aleinternet.github.io/universidad/ramos/sem04_tin/featured.jpg"/>
 
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://aleinternet.github.io/universidad/ramos/sem04_tin/featured.jpg"/>
-<meta name="twitter:title" content="MID Taller Integrado"/>
-<meta name="twitter:description" content="La última vuelta"/>
+<meta name="twitter:title" content="Fabricación de prototipos"/>
+<meta name="twitter:description" content="Un gran Ramo"/>
 
   
   
@@ -121,6 +121,9 @@
 
 
 
+
+
+<script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
 
 
 
@@ -238,7 +241,7 @@
         
         <a href="/portafolio/"  class="flex items-center">
           
-          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="Protafolio">
+          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="Portafolio">
             Portafolio
           </p>
         </a>
@@ -467,7 +470,7 @@
 <li class="mt-1">
     <a href="/portafolio/"  class="flex items-center">
         
-        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="Protafolio">
+        <p class="text-sm font-small text-gray-500 hover:text-gray-900" title="Portafolio">
             Portafolio
         </p>
     </a>
@@ -558,7 +561,7 @@
 
  <header>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">MID Taller Integrado</h1>
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Fabricación de prototipos</h1>
   <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
 
@@ -739,10 +742,10 @@
     
     <div class="min-w-0 min-h-0 max-w-prose">
       <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Repositorio de encargos del ramo de Taller Intgrado y Representación Visual, ya que los dos ramos se unieron en uno.
+  Repositorio de encargos del ramo de Fabricación de prototipos
 </div>
 
-<p><em>Profesores</em>: Carlos Lucero - Lhuis* &mdash;&mdash;- <em>Ayudante: Vicente Larenas</em></p>
+<p><em>Profesores: Mario Vergara</em> &mdash;&mdash;- <em>Ayudante: Stefano</em></p>
 <hr>
 <hr>
 <div id="encargo-01---concepto-verbo" class="anchor"></div>
@@ -761,6 +764,189 @@
             style="text-decoration-line: none !important;" href="#concepto" aria-label="Anchor">#</a></span>        
     
 </h1>
+<iframe id="pdf-hugo" src="/pdf/sem04_modelacion_E20_paso%20a%20paso.pdf"
+        frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+        var iframe = document.getElementById(id);
+        iframe.classList.add("full-screen");
+        iframe.style.position = "fixed";
+        iframe.style.top = "0";
+        iframe.style.left = "0";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.zIndex = "9999";
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            var iframe = document.getElementById('pdf-hugo');
+            iframe.classList.remove("full-screen");
+            iframe.style.position = "static";
+            iframe.style.top = "auto";
+            iframe.style.left = "auto";
+            iframe.style.width = "100%";
+            iframe.style.height = "60vh";
+            iframe.style.zIndex = "auto";
+        }
+    });
+</script>
+
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/lavamanos_p.png" alt="lavamanos" />
+      <figcaption>Paso a paso del proceso.</figcaption>
+    </figure>
+  
+
+</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/uai_1_ti_tinta.jpg" alt="Tinta_conductiva" />
+      <figcaption>Tinta conductiva de corriente. Hecha con colafría y grafito</figcaption>
+    </figure>
+  
+
+</p>
+<div>
+    <video id="" width="100%" height="450" muted loop controls preload>
+      <source src="/img/MID_T2_TP_Parejas_registro_1.mp4" type="video/mp4">
+    </video>
+  </div>
+  
+  <button onclick="playVideo('')" class="button button-primary mb-2" style="width: 100%;">Reproducir</button>
+  
+  <script>
+    function playVideo(id) {
+      var video = document.getElementById(id);
+      video.play();
+    }
+  </script>
+  
+
+
+<div id="gallery-3">
+  
+  <img src="gallery/Cifuentes_Alejandro_T5A.jpg" class="grid-w33" />
+  <img src="gallery/Cifuentes_Alejandro_T5B.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-3').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>.</p>
+<div>
+    <iframe 
+        src='https://alumnos2281.autodesk360.com/shares/public/SH9285eQTcf875d3c5397558be97507ddce8?mode=embed'
+        width="100%" 
+        height="450" 
+        allowfullscreen="true" 
+        webkitallowfullscreen="true" 
+        mozallowfullscreen="true"  
+        frameborder="0"
+    ></iframe>    
+</div>
+
+<div class="code-viewer">
+    <div class="header" onclick="copyCodeToClipboard(this)">
+      <button id="copyButton">Copiar código</button>
+    </div>
+    <pre>
+      <code>
+        
+const int RED_PIN = 9;
+const int GREEN_PIN = 10;
+
+
+      </code>
+    </pre>
+  </div>
+  
+  <style>
+    .code-viewer {
+      position: relative;
+      overflow-y: auto;
+      max-height: 400px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    .header {
+      background-color: #f5f5f5;
+      padding: 5px;
+      border-radius: 4px 4px 0 0;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+  
+    .header button {
+      margin: 5px;
+      color: #333;  
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+  
+    .header:hover button {
+      text-decoration: underline;
+    }
+  
+    .header.clicked {
+      background-color: #333;  
+    }
+  
+    .header.clicked button {
+      color: #f5f5f5;  
+    }
+  </style>
+  
+  <script>
+    function copyCodeToClipboard(header) {
+      var codeViewer = header.parentNode;
+      var code = codeViewer.querySelector("code");
+      var textToCopy = code.innerText;
+  
+      var textarea = document.createElement("textarea");
+      textarea.value = textToCopy;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+  
+      header.classList.add("clicked");
+      header.querySelector("button").textContent = "Copiado";
+  
+      setTimeout(function () {
+        header.classList.remove("clicked");
+        header.querySelector("button").textContent = "Copiar código";
+      }, 2000);
+    }
+  </script>
+  
 
     </div>
    
