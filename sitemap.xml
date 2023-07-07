@@ -152,23 +152,7 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem05_historia_contemporanea_dise%C3%B1o/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem05_microeconomia/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem05_taller_productos/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -461,6 +445,22 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem04_taller_dise%C3%B1o_interfaces/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_taller_productos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem05_historia_contemporanea_dise%C3%B1o/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
