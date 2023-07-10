@@ -694,6 +694,14 @@
       </ul>
     </li>
   </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#encargo-04---sensor-de-color"><em>Encargo 04 - Sensor de color</em></a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </details>
@@ -733,6 +741,14 @@
     <li>
       <ul>
         <li><a href="#encargo-04---drawdio-2-remix"><em>Encargo 04 - Drawdio 2 remix</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#encargo-04---sensor-de-color"><em>Encargo 04 - Sensor de color</em></a></li>
       </ul>
     </li>
   </ul>
@@ -1189,6 +1205,297 @@ void loop() {
 
 <hr>
 <hr>
+<div id="encargo-04---sensor-de-color" class="anchor"></div>
+<h3 class="relative group"><em>Encargo 04 - Sensor de color</em> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#encargo-04---sensor-de-color" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div id="cubo-infinito-de-leds-vibrador" class="anchor"></div>
+<h1 class="relative group">Cubo infinito de leds vibrador 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#cubo-infinito-de-leds-vibrador" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/cubo_final_edit.png" alt="Verbos" />
+      <figcaption>Cubo infinito de leds vibrador</figcaption>
+    </figure>
+  
+
+</p>
+<p>Este encargo comenzó con la realización de 3 tareas del libro de ejercicios de electrónica.</p>
+<div id="hahahugoshortcodes10hbhb" class="anchor"></div>
+<h1 class="relative group">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/nrNrNH-6hSA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+ 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hahahugoshortcodes10hbhb" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>Luego se formaron parejas y fui con <strong>Catalina Plencovich</strong>, en donde se nos asignó el sensor de color. Decidimos realizar un cubo de leds infinito con espejos y un parlante hackeado que, al vibrar, generase patrones en base al color dado. Aunque no se pudo lograr eso último, uno puede tocar el vibrador y así <strong>sentir el color</strong> que se está viendo.</p>
+<div>
+    <video id="" width="100%" height="450" muted loop controls preload>
+      <source src="/img/Cubo_proceso_v02.mp4" type="video/mp4">
+    </video>
+  </div>
+  
+  <button onclick="playVideo('')" class="button button-primary mb-2" style="width: 100%;">Reproducir</button>
+  
+  <script>
+    function playVideo(id) {
+      var video = document.getElementById(id);
+      video.play();
+    }
+  </script>
+  
+<iframe id="pdf-hugo" src="/pdf/Infograf%c3%ada_sensor_v01.pdf"
+        frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+        var iframe = document.getElementById(id);
+        iframe.classList.add("full-screen");
+        iframe.style.position = "fixed";
+        iframe.style.top = "0";
+        iframe.style.left = "0";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.zIndex = "9999";
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            var iframe = document.getElementById('pdf-hugo');
+            iframe.classList.remove("full-screen");
+            iframe.style.position = "static";
+            iframe.style.top = "auto";
+            iframe.style.left = "auto";
+            iframe.style.width = "100%";
+            iframe.style.height = "60vh";
+            iframe.style.zIndex = "auto";
+        }
+    });
+</script>
+
+<div class="code-viewer">
+    <div class="header" onclick="copyCodeToClipboard(this)">
+      <button id="copyButton">Copiar código</button>
+    </div>
+    <pre>
+      <code>
+        
+
+// Definición de los pines
+const int pinR = 9;
+const int pinB = 10;
+const int pinG = 11;
+
+const int s0 = 4;
+const int s1 = 5;
+const int s2 = 6;
+const int s3 = 7;
+const int out = 8;
+
+const int speakerPin = 3;  // Pin digital utilizado para el parlante
+int frequency = 0;  // Variable para almacenar la frecuencia actual
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(s0, OUTPUT);
+  pinMode(s1, OUTPUT);
+  pinMode(s2, OUTPUT);
+  pinMode(s3, OUTPUT);
+  pinMode(out, INPUT);
+
+    // Configuración de los pines como salidas
+  pinMode(pinR, OUTPUT);
+  pinMode(pinB, OUTPUT);
+  pinMode(pinG, OUTPUT);
+
+  digitalWrite(s0, HIGH);
+  digitalWrite(s1, HIGH);
+
+   pinMode(speakerPin, OUTPUT);
+}
+
+void loop()
+{
+  int R = getRojo();
+  delay(200);
+  int V = getVerde();
+  delay(200);
+  int A = getAzul();
+  delay(200);
+
+  Serial.print("Int R " + String(R));
+  Serial.print("  --   Int V " + String(V));
+  Serial.println("  --   Int A " + String(A));
+
+  if (R > V && V > A && R >20 && V > 8) {
+    Serial.print(" EL COLOR ES CELESTE");
+      // Encender el color azul
+  digitalWrite(pinR, HIGH);
+  digitalWrite(pinB, LOW);
+  digitalWrite(pinG, HIGH);
+  frequency = 10;  // Actualizar la frecuencia solo si es diferente de cero
+      tone(speakerPin, frequency);  // Generar el tono en el parlante con la nueva frecuencia ingresada
+  }
+  if (R > V && V < A && R > 13 && V <= 16) {
+    Serial.print(" EL COLOR ES VERDE CLARO");
+       // Encender el color rojo
+  digitalWrite(pinR, HIGH);
+  digitalWrite(pinB, HIGH);
+  digitalWrite(pinG, LOW);
+   frequency = 50;  // Actualizar la frecuencia solo si es diferente de cero
+      tone(speakerPin, frequency);  // Generar el tono en el parlante con la nueva frecuencia ingresada
+     
+  }
+  else if (R < V && V > A && R >= 5 && V <= 11) {
+    Serial.print(" EL COLOR ES ROSADO");
+  }
+  if (R < V && V > A && R > 7 && V <= 29) {
+    Serial.print(" EL COLOR ES ROJO");
+     // Encender el color verde
+  digitalWrite(pinR, LOW);
+  digitalWrite(pinB, HIGH);
+  digitalWrite(pinG, HIGH);
+   frequency = 90;  // Actualizar la frecuencia solo si es diferente de cero
+      tone(speakerPin, frequency);  // Generar el tono en el parlante con la nueva frecuencia ingresada
+ 
+  }
+  else
+  {
+    Serial.print(" EL COLOR NO HA SIDO REGISTRADO");
+  }
+  Serial.print(" ");
+
+ 
+}
+
+int getRojo()
+{
+  //leer color rojo
+  digitalWrite(s2, LOW);
+  digitalWrite(s3, LOW);
+  int ROJO = pulseIn(out, LOW);
+  return ROJO;
+}
+
+int getAzul()
+{
+  //leer color azul
+  digitalWrite(s2, LOW);
+  digitalWrite(s3, HIGH);
+  int AZUL = pulseIn(out, LOW);
+  return AZUL;
+}
+
+int getVerde()
+{
+  //leer color verde
+  digitalWrite(s2, HIGH);
+  digitalWrite(s3, HIGH);
+  int VERDE = pulseIn(out, LOW);
+  return VERDE;
+}
+
+
+      </code>
+    </pre>
+  </div>
+  
+  <style>
+    .code-viewer {
+      position: relative;
+      overflow-y: auto;
+      max-height: 400px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    .header {
+      background-color: #f5f5f5;
+      padding: 5px;
+      border-radius: 4px 4px 0 0;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+  
+    .header button {
+      margin: 5px;
+      color: #333;  
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+  
+    .header:hover button {
+      text-decoration: underline;
+    }
+  
+    .header.clicked {
+      background-color: #333;  
+    }
+  
+    .header.clicked button {
+      color: #f5f5f5;  
+    }
+  </style>
+  
+  <script>
+    function copyCodeToClipboard(header) {
+      var codeViewer = header.parentNode;
+      var code = codeViewer.querySelector("code");
+      var textToCopy = code.innerText;
+  
+      var textarea = document.createElement("textarea");
+      textarea.value = textToCopy;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+  
+      header.classList.add("clicked");
+      header.querySelector("button").textContent = "Copiado";
+  
+      setTimeout(function () {
+        header.classList.remove("clicked");
+        header.querySelector("button").textContent = "Copiar código";
+      }, 2000);
+    }
+  </script>
+  
+<a class="face-button" href="/descargas/leds_cata_v03_colores_buenos.ino" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
 <hr>
 <hr>
 <p><em>En proceso (&hellip;)</em></p>

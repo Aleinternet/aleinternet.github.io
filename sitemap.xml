@@ -192,22 +192,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem06_programacion_para_die%C3%B1o/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem06_taller_espacios/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem06_teoria_tendencias_dise%C3%B1o/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -424,6 +408,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_programacion_para_die%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/proyectos/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -440,6 +432,14 @@
           </url>
     
   
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_taller_espacios/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
     
   
     
