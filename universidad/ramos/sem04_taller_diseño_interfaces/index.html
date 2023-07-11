@@ -827,6 +827,7 @@
   
 
 </p>
+<hr>
 <div id="encargo-02---hechizo" class="anchor"></div>
 <h3 class="relative group"><em>Encargo 02 - Hechizo</em> 
     <span
@@ -896,6 +897,7 @@
     }
   </script>
   
+<hr>
 <div id="encargo-03---electrónica---tinkercad" class="anchor"></div>
 <h3 class="relative group"><em>Encargo 03 - Electrónica - Tinkercad</em> 
     <span
@@ -957,13 +959,54 @@
     }
   </script>
   
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
 <div class="code-viewer">
-    <div class="header" onclick="copyCodeToClipboard(this)">
-      <button id="copyButton">Copiar código</button>
-    </div>
-    <pre>
-      <code>
-        
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
 int a = 9;
 int b = 2;
 int c = 3;
@@ -1116,71 +1159,34 @@ void loop()
 }
 
 
-      </code>
-    </pre>
-  </div>
-  
-  <style>
-    .code-viewer {
-      position: relative;
-      overflow-y: auto;
-      max-height: 400px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-  
-    .header {
-      background-color: #f5f5f5;
-      padding: 5px;
-      border-radius: 4px 4px 0 0;
-      border-bottom: 1px solid #ccc;
-      cursor: pointer;
-    }
-  
-    .header button {
-      margin: 5px;
-      color: #333;  
-      text-decoration: none;
-      border-bottom: 1px solid transparent;
-    }
-  
-    .header:hover button {
-      text-decoration: underline;
-    }
-  
-    .header.clicked {
-      background-color: #333;  
-    }
-  
-    .header.clicked button {
-      color: #f5f5f5;  
-    }
-  </style>
-  
-  <script>
-    function copyCodeToClipboard(header) {
-      var codeViewer = header.parentNode;
-      var code = codeViewer.querySelector("code");
-      var textToCopy = code.innerText;
-  
-      var textarea = document.createElement("textarea");
-      textarea.value = textToCopy;
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand("copy");
-      document.body.removeChild(textarea);
-  
-      header.classList.add("clicked");
-      header.querySelector("button").textContent = "Copiado";
-  
-      setTimeout(function () {
-        header.classList.remove("clicked");
-        header.querySelector("button").textContent = "Copiar código";
-      }, 2000);
-    }
-  </script>
-  
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<hr>
 <div id="final-term---meraki" class="anchor"></div>
 <h3 class="relative group"><em>Final Term - Meraki</em> 
     <span

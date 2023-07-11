@@ -24,6 +24,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_electronica_aplicada/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/cosas/1/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -168,31 +176,7 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem06_electronica_aplicada/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem06_fabricacion_digital/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem06_lectura_critica/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem06_teoria_tendencias_dise%C3%B1o/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -344,6 +328,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_fabricacion_digital/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/markdown/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -461,6 +453,14 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem05_historia_contemporanea_dise%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem06_teoria_tendencias_dise%C3%B1o/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
