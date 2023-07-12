@@ -852,20 +852,16 @@
 
 </p>
 <div>
-    <video id="" width="100%" height="450" muted loop controls preload>
-      <source src="/img/MID_T2_TP_Parejas_registro_1.mp4" type="video/mp4">
-    </video>
-  </div>
-  
-  <button onclick="playVideo('')" class="button button-primary mb-2" style="width: 100%;">Reproducir</button>
-  
-  <script>
-    function playVideo(id) {
-      var video = document.getElementById(id);
-      video.play();
-    }
-  </script>
-  
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/MID_T2_TP_Parejas_registro_1.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+
 
 
 <div id="gallery-3">

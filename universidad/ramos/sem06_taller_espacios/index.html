@@ -790,6 +790,28 @@
             style="text-decoration-line: none !important;" href="#ejercicio" aria-label="Anchor">#</a></span>        
     
 </h3>
+<p>Recuerdo claramente el desafío que se presentó en clase, basado en el render que el profesor Montalbetti había creado. La tarea consistía en <strong>incorporar un elemento externo a la imagen y lograr que pareciera una parte orgánica de la composición original</strong>. Con mis conocimientos de Photoshop, me adentré en la tarea y, aunque los elementos que elegí pueden haber sido mega random, el resultado final fue una fusión armoniosa que transformó la imagen de manera única. Eso si, estoy seguro que nunca corrigieron esta tarea.</p>
+
+
+<div id="gallery-1">
+  
+  <img src="gallery/e1.jpg" class="grid-w33" />
+  <img src="gallery/e2.jpg" class="grid-w33" />
+  <img src="gallery/e3.jpg" class="grid-w33" />
+  <img src="gallery/e4.jpg" class="grid-w33" />
+  <img src="gallery/e5.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-1').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
 <p>
 
 
@@ -824,7 +846,7 @@
 </h1>
 
 
-<div id="gallery-1">
+<div id="gallery-2">
   
   <img src="gallery/2.jpg" class="grid-w33" />
   <img src="gallery/3.jpg" class="grid-w33" />
@@ -835,7 +857,7 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-1').packery({
+    $('#gallery-2').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
@@ -858,20 +880,16 @@
 
 </p>
 <div>
-    <video id="" width="100%" height="450" muted loop controls preload>
-      <source src="/img/uai_3_te.mp4" type="video/mp4">
-    </video>
-  </div>
-  
-  <button onclick="playVideo('')" class="button button-primary mb-2" style="width: 100%;">Reproducir</button>
-  
-  <script>
-    function playVideo(id) {
-      var video = document.getElementById(id);
-      video.play();
-    }
-  </script>
-  
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/uai_3_te.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+
 
 
 

@@ -24,6 +24,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/sem07_dise%C3%B1o_construccion_interfaces/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem06_electronica_aplicada/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -193,14 +201,6 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem07_ciencias/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/sem07_dise%C3%B1o_construccion_interfaces/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
