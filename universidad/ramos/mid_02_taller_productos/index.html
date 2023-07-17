@@ -1621,6 +1621,17 @@ int getVerde()
   })
 </script>
 <p>El código utiliza varias bibliotecas para el manejo del acelerómetro, la matriz de LED y la generación de retrasos no bloqueantes. La orientación del triángulo se determina mediante el acelerómetro, y los efectos visuales se implementan mediante diversas funciones para el movimiento de &ldquo;granos de arena&rdquo;. La otra librería es &ldquo;LedControl&rdquo;, la cual sirve para controlar, hacer llamados, seleccionar leds, etc. de la matriz de leds. A esto se le denomina visualización por multiplexación.</p>
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/reloj_proceso.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+
 <p><strong>Para ejecutar este código, se necesitan las bibliotecas &ldquo;MPU6050_tockn.h&rdquo; y &ldquo;LedControl.h&rdquo; instaladas.</strong></p>
 <style>
   .code-viewer {
