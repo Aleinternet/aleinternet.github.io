@@ -1601,7 +1601,26 @@ int getVerde()
 <li>Giroscopio Mpu6050</li>
 <li>2 matrices leds 8x8</li>
 </ul>
-<p>El código utiliza varias bibliotecas para el manejo del acelerómetro, la matriz de LED y la generación de retrasos no bloqueantes. La orientación del triángulo se determina mediante el acelerómetro, y los efectos visuales se implementan mediante diversas funciones para el movimiento de &ldquo;granos de arena&rdquo;.</p>
+
+
+<div id="gallery-18">
+  
+  <img src="gallery/arena1.jpg" class="grid-w33" />
+  <img src="gallery/arena2.jpg" class="grid-w33" />
+  <img src="gallery/arena3.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-18').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>El código utiliza varias bibliotecas para el manejo del acelerómetro, la matriz de LED y la generación de retrasos no bloqueantes. La orientación del triángulo se determina mediante el acelerómetro, y los efectos visuales se implementan mediante diversas funciones para el movimiento de &ldquo;granos de arena&rdquo;. La otra librería es &ldquo;LedControl&rdquo;, la cual sirve para controlar, hacer llamados, seleccionar leds, etc. de la matriz de leds. A esto se le denomina visualización por multiplexación.</p>
 <p><strong>Para ejecutar este código, se necesitan las bibliotecas &ldquo;MPU6050_tockn.h&rdquo; y &ldquo;LedControl.h&rdquo; instaladas.</strong></p>
 <style>
   .code-viewer {
