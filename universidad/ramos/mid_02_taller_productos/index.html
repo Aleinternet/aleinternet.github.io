@@ -123,6 +123,9 @@
 
 
 
+<script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
+
+
 
 
   
@@ -682,14 +685,6 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-03---the-billion-dollar-code"><em>Encargo 03 - The Billion dollar code</em></a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
         <li><a href="#encargo-04---drawdio-2-remix"><em>Encargo 04 - Drawdio 2 remix</em></a></li>
       </ul>
     </li>
@@ -698,7 +693,23 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-05---sensor-de-color"><em>Encargo 05 - Sensor de color</em></a></li>
+        <li><a href="#encargo-04---sensor-de-color"><em>Encargo 04 - Sensor de color</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#encargo-05---reloj-de-arena-digital"><em>Encargo 05 - Reloj de arena digital</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reseñas-series"><em>Reseñas series</em></a></li>
       </ul>
     </li>
   </ul>
@@ -732,14 +743,6 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-03---the-billion-dollar-code"><em>Encargo 03 - The Billion dollar code</em></a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
         <li><a href="#encargo-04---drawdio-2-remix"><em>Encargo 04 - Drawdio 2 remix</em></a></li>
       </ul>
     </li>
@@ -748,7 +751,23 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-05---sensor-de-color"><em>Encargo 05 - Sensor de color</em></a></li>
+        <li><a href="#encargo-04---sensor-de-color"><em>Encargo 04 - Sensor de color</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#encargo-05---reloj-de-arena-digital"><em>Encargo 05 - Reloj de arena digital</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#reseñas-series"><em>Reseñas series</em></a></li>
       </ul>
     </li>
   </ul>
@@ -967,81 +986,6 @@ Aunque inicialmente planeé utilizar la plataforma Arduino Cloud IoT para lograr
 <p>Posterior a eso, se le dio vuelta al concepto del Drawdio y del verbo &ldquo;almacenar&rdquo; y se creó una especie de caja de seguridad, en donde al intentarla abrir suena.</p>
 <hr>
 <hr>
-<div id="encargo-03---the-billion-dollar-code" class="anchor"></div>
-<h3 class="relative group"><em>Encargo 03 - The Billion dollar code</em> 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#encargo-03---the-billion-dollar-code" aria-label="Anchor">#</a></span>        
-    
-</h3>
-<div id="ensayo-serie" class="anchor"></div>
-<h1 class="relative group">ENSAYO SERIE 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ensayo-serie" aria-label="Anchor">#</a></span>        
-    
-</h1>
-
-
-
-<iframe class="" src="/pdf/Ale_cifuentes_V_ensayo_TBDC.pdf" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
-
-<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
-
-<script>
-    function toggleFullScreen(button) {
-        var iframe = button.previousElementSibling;
-        if (!document.fullscreenElement) {
-            if (iframe.requestFullscreen) {
-                iframe.requestFullscreen();
-            } else if (iframe.mozRequestFullScreen) {
-                iframe.mozRequestFullScreen();
-            } else if (iframe.webkitRequestFullscreen) {
-                iframe.webkitRequestFullscreen();
-            } else if (iframe.msRequestFullscreen) {
-                iframe.msRequestFullscreen();
-            }
-        } else {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.mozCancelFullScreen) {
-                document.mozCancelFullScreen();
-            } else if (document.webkitExitFullscreen) {
-                document.webkitExitFullscreen();
-            } else if (document.msExitFullscreen) {
-                document.msExitFullscreen();
-            }
-        }
-    }
-
-    document.addEventListener('keydown', function(event) {
-        if (event.key === "Escape") {
-            var iframes = document.getElementsByClassName("");
-            for (var i = 0; i < iframes.length; i++) {
-                var iframe = iframes[i];
-                if (document.fullscreenElement === iframe ||
-                    document.webkitFullscreenElement === iframe ||
-                    document.mozFullScreenElement === iframe ||
-                    document.msFullscreenElement === iframe) {
-                    if (document.exitFullscreen) {
-                        document.exitFullscreen();
-                    } else if (document.mozCancelFullScreen) {
-                        document.mozCancelFullScreen();
-                    } else if (document.webkitExitFullscreen) {
-                        document.webkitExitFullscreen();
-                    } else if (document.msExitFullscreen) {
-                        document.msExitFullscreen();
-                    }
-                }
-            }
-        }
-    });
-</script>
-
-<hr>
-<hr>
 <div id="encargo-04---drawdio-2-remix" class="anchor"></div>
 <h3 class="relative group"><em>Encargo 04 - Drawdio 2 remix</em> 
     <span
@@ -1050,18 +994,18 @@ Aunque inicialmente planeé utilizar la plataforma Arduino Cloud IoT para lograr
             style="text-decoration-line: none !important;" href="#encargo-04---drawdio-2-remix" aria-label="Anchor">#</a></span>        
     
 </h3>
-<div id="drawdio-2---el-remix" class="anchor"></div>
-<h1 class="relative group">DRAWDIO 2 - EL REMIX 
+<div id="drawdio-3---el-remix" class="anchor"></div>
+<h1 class="relative group">DRAWDIO 3 - EL REMIX 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#drawdio-2---el-remix" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#drawdio-3---el-remix" aria-label="Anchor">#</a></span>        
     
 </h1>
 <p>El encargo consistió en la combinación de dos elementos: <strong>el Drawdio y el Arduino</strong>. El Drawdio es un pseudo instrumento musical diseñado originalmente por Jay Silver en el MIT Media Lab, mientras que Arduino es una plataforma de prototipado electrónico de código abierto.</p>
 <p>El Drawdio utiliza un circuito integrado 555 Timer IC y componentes adicionales para generar sonidos a través de un lápiz conductor y una superficie conductora, como papel. El Arduino, por otro lado, es una placa programable que permite controlar dispositivos electrónicos.</p>
 <p>En este proyecto, se decidió integrar el Drawdio con el Arduino para realizar modificaciones en el sonido generado por el Drawdio. Para lograr esto, se utilizó un potenciómetro conectado al Arduino para controlar el volumen del sonido. Además, se añadió una funcionalidad adicional de controlar un LED RGB en base al valor del potenciómetro.</p>
-<div id="hahahugoshortcodes6hbhb" class="anchor"></div>
+<div id="hahahugoshortcodes5hbhb" class="anchor"></div>
 <h1 class="relative group">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/1kHWnWE98bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -1070,12 +1014,12 @@ Aunque inicialmente planeé utilizar la plataforma Arduino Cloud IoT para lograr
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hahahugoshortcodes6hbhb" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#hahahugoshortcodes5hbhb" aria-label="Anchor">#</a></span>        
     
 </h1>
 <p>El código modificado permitió ajustar el color del LED RGB en función del valor del potenciómetro. Cuando el valor del potenciómetro era bajo, el LED mostraba un color azul intenso. A medida que el valor del potenciómetro aumentaba, el LED cambiaba a verde y, finalmente, a rojo cuando el valor del potenciómetro era máximo.</p>
 <p>Además, se modificó el sonido generado por el Drawdio utilizando el Arduino. En lugar de utilizar el circuito del 555 Timer IC, se generó el tono directamente desde el Arduino, controlando la frecuencia del tono en base al valor del potenciómetro. De esta manera, el sonido del Drawdio se modificaba de forma progresiva, siendo más suave cuando el valor del potenciómetro era bajo y más fuerte a medida que el valor del potenciómetro aumentaba.</p>
-<div id="hahahugoshortcodes7hbhb" class="anchor"></div>
+<div id="hahahugoshortcodes6hbhb" class="anchor"></div>
 <h1 class="relative group">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/Se_EWBrFClE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -1084,7 +1028,7 @@ Aunque inicialmente planeé utilizar la plataforma Arduino Cloud IoT para lograr
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hahahugoshortcodes7hbhb" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#hahahugoshortcodes6hbhb" aria-label="Anchor">#</a></span>        
     
 </h1>
 <p>En resumen, el proyecto logró integrar el Drawdio y el Arduino, permitiendo controlar el color del LED RGB y modificar el sonido del Drawdio en base al valor del potenciómetro. Esto proporcionó una experiencia interactiva y personalizable para explorar la música generada por el Drawdio. Abajo se encuentra la descarga del código Arduino utilizado.</p>
@@ -1222,12 +1166,12 @@ void loop() {
 
 <hr>
 <hr>
-<div id="encargo-05---sensor-de-color" class="anchor"></div>
-<h3 class="relative group"><em>Encargo 05 - Sensor de color</em> 
+<div id="encargo-04---sensor-de-color" class="anchor"></div>
+<h3 class="relative group"><em>Encargo 04 - Sensor de color</em> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#encargo-05---sensor-de-color" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#encargo-04---sensor-de-color" aria-label="Anchor">#</a></span>        
     
 </h3>
 <div id="cubo-infinito-de-leds-vibrador" class="anchor"></div>
@@ -1254,7 +1198,7 @@ void loop() {
 
 </p>
 <p>Este encargo comenzó con la realización de 3 tareas del libro de ejercicios de electrónica.</p>
-<div id="hahahugoshortcodes10hbhb" class="anchor"></div>
+<div id="hahahugoshortcodes9hbhb" class="anchor"></div>
 <h1 class="relative group">
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/nrNrNH-6hSA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -1263,7 +1207,7 @@ void loop() {
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hahahugoshortcodes10hbhb" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#hahahugoshortcodes9hbhb" aria-label="Anchor">#</a></span>        
     
 </h1>
 <p>
@@ -1305,6 +1249,7 @@ void loop() {
   video.removeAttribute("autoplay");
 </script>
 
+<p>-</p>
 
 
 
@@ -1360,6 +1305,37 @@ void loop() {
             }
         }
     });
+</script>
+
+<p>Este fue el resultado final de la parte 1, ya que de momento queda que forme los patrones.</p>
+
+
+<div id="gallery-13">
+  
+  <img src="gallery/cubo_rojo.jpg" class="grid-w33" />
+  <img src="gallery/cubo_final_edit.png" class="grid-w33" />
+  <img src="gallery/cubo_verde.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-13').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/uai_mid_02_cubo.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
 </script>
 
 <style>
@@ -1565,6 +1541,765 @@ int getVerde()
 </a>
 
 
+<hr>
+<hr>
+<div id="encargo-05---reloj-de-arena-digital" class="anchor"></div>
+<h3 class="relative group"><em>Encargo 05 - Reloj de arena digital</em> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#encargo-05---reloj-de-arena-digital" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div id="reloj-del-tiempo" class="anchor"></div>
+<h1 class="relative group">Reloj del tiempo 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#reloj-del-tiempo" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/Lamina_reloj_inf.jpg" alt="Portada" />
+      <figcaption>Relojes del tiempo</figcaption>
+    </figure>
+  
+
+</p>
+<p>En este nuevo encargo tuve nuevamente el agrado de ser con <strong>Catalina Plencovich</strong>, hacemos un gran equipo y se nos encargó hacer un reloj de arena digital, es decir, simular el movimiento  y caída de la arena con leds. Así, nos pusimos creativos y, adempas de realizar el encargo, <strong>creamos una especie de unión del reloj de arena: uno digital, uno de arena real y otro con agua.</strong></p>
+<p>Si bien no fue tan problemático realizar este proyecto, ocurrieron muchas problemáticas que supimos superar y llevarlas a buen puerto. De las más destacadas son la clásica de que no funciona el arduino cuando está todo bien, una pequeña roca en el reloj de arena real, y que se forman burbujas en el reloj de agua.</p>
+
+
+<div id="gallery-17">
+  
+  <img src="gallery/reloj_arena_02.jpg" class="grid-w33" />
+  <img src="gallery/reloj_arena_01.jpg" class="grid-w33" />
+  <img src="gallery/reloj_arena_03.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-17').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>Los elementos electrónicos fundamentales fueron:</p>
+<ul>
+<li>Arduino Uno</li>
+<li>Giroscopio Mpu6050</li>
+<li>2 matrices leds 8x8</li>
+</ul>
+<p>El código utiliza varias bibliotecas para el manejo del acelerómetro, la matriz de LED y la generación de retrasos no bloqueantes. La orientación del triángulo se determina mediante el acelerómetro, y los efectos visuales se implementan mediante diversas funciones para el movimiento de &ldquo;granos de arena&rdquo;.</p>
+<p><strong>Para ejecutar este código, se necesitan las bibliotecas &ldquo;MPU6050_tockn.h&rdquo; y &ldquo;LedControl.h&rdquo; instaladas.</strong></p>
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
+<div class="code-viewer">
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
+
+
+// Fotorresistencia
+const int fotorresistenciaPin = 0; // Usamos '0' para representar el pin analógico A0
+
+int valorMapeado = 1;
+
+#include "Arduino.h"
+#include <MPU6050_tockn.h>
+#include "LedControl.h"
+#include "Delay.h"
+
+#define  MATRIX_A  1
+#define MATRIX_B  0
+
+MPU6050 mpu6050(Wire);
+
+// valores entregados: 260/330/400
+#define ACC_THRESHOLD_LOW -25
+#define ACC_THRESHOLD_HIGH 25
+
+// Matriz
+#define PIN_DATAIN 11   // DIN
+#define PIN_CLK 13      // CLK
+#define PIN_LOAD 10     // CS
+
+// Acelerómetro
+#define PIN_X  mpu6050.getAngleX()
+#define PIN_Y  mpu6050.getAngleY()
+
+// Rotary Encoder
+#define PIN_ENC_1 3
+#define PIN_ENC_2 2
+#define PIN_ENC_BUTTON 7
+
+#define PIN_BUZZER 14
+
+// This takes into account how the matrixes are mounted
+#define ROTATION_OFFSET 90
+
+// in milliseconds
+#define DEBOUNCE_THRESHOLD 500
+
+#define DELAY_FRAME 50   //Velocidad de caída
+
+#define DEBUG_OUTPUT 1
+
+#define MODE_HOURGLASS 0
+#define MODE_SETMINUTES 1
+#define MODE_SETHOURS 2
+
+byte delayHours = 0;
+byte delayMinutes = 1;
+int mode = MODE_HOURGLASS;
+int gravity;
+LedControl lc = LedControl(PIN_DATAIN, PIN_CLK, PIN_LOAD, valorMapeado);
+NonBlockDelay d;
+int resetCounter = 0;
+bool alarmWentOff = false;
+
+
+/**
+ * Get delay between particle drops (in seconds)
+ */
+long getDelayDrop() {
+  // since we have exactly 60 particles we don't have to multiply by 60 and then divide by the number of particles again :)
+  return delayMinutes + delayHours * 60;
+}
+
+
+#if DEBUG_OUTPUT
+void printmatrix() {
+  Serial.println(" 0123-4567 ");
+  for (int y = 0; y<8; y++) {
+    if (y == 4) {
+      Serial.println("|----|----|");
+    }
+    Serial.print(y);
+    for (int x = 0; x<8; x++) {
+      if (x == 4) {
+        Serial.print("|");
+      }
+      Serial.print(lc.getXY(0,x,y) ? "X" :" ");
+    }
+    Serial.println("|");
+  }
+  Serial.println("-----------");
+}
+#endif
+
+
+
+coord getDown(int x, int y) {
+  coord xy;
+  xy.x = x-1;
+  xy.y = y+1;
+  return xy;
+}
+coord getLeft(int x, int y) {
+  coord xy;
+  xy.x = x-1;
+  xy.y = y;
+  return xy;
+}
+coord getRight(int x, int y) {
+  coord xy;
+  xy.x = x;
+  xy.y = y+1;
+  return xy;
+}
+
+
+
+bool canGoLeft(int addr, int x, int y) {
+  if (x == 0) return false; // not available
+  return !lc.getXY(addr, getLeft(x, y)); // you can go there if this is empty
+}
+bool canGoRight(int addr, int x, int y) {
+  if (y == 7) return false; // not available
+  return !lc.getXY(addr, getRight(x, y)); // you can go there if this is empty
+}
+bool canGoDown(int addr, int x, int y) {
+  if (y == 7) return false; // not available
+  if (x == 0) return false; // not available
+  if (!canGoLeft(addr, x, y)) return false;
+  if (!canGoRight(addr, x, y)) return false;
+  return !lc.getXY(addr, getDown(x, y)); // you can go there if this is empty
+}
+
+
+
+void goDown(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getDown(x,y), true);
+}
+void goLeft(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getLeft(x,y), true);
+}
+void goRight(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getRight(x,y), true);
+}
+
+
+int countParticles(int addr) {
+  int c = 0;
+  for (byte y=0; y<8; y++) {
+    for (byte x=0; x<8; x++) {
+      if (lc.getXY(addr, x, y)) {
+        c++;
+      }
+    }
+  }
+  return c;
+}
+
+
+bool moveParticle(int addr, int x, int y) {
+  if (!lc.getXY(addr,x,y)) {
+    return false;
+  }
+
+  bool can_GoLeft = canGoLeft(addr, x, y);
+  bool can_GoRight = canGoRight(addr, x, y);
+
+  if (!can_GoLeft && !can_GoRight) {
+    return false; // we're stuck
+  }
+
+  bool can_GoDown = canGoDown(addr, x, y);
+
+  if (can_GoDown) {
+    goDown(addr, x, y);
+  } else if (can_GoLeft&& !can_GoRight) {
+    goLeft(addr, x, y);
+  } else if (can_GoRight && !can_GoLeft) {
+    goRight(addr, x, y);
+  } else if (random(2) == 1) { // we can go left and right, but not down
+    goLeft(addr, x, y);
+  } else {
+    goRight(addr, x, y);
+  }
+  return true;
+}
+
+
+
+void fill(int addr, int maxcount) {
+  int n = 8;
+  byte x,y;
+  int count = 0;
+  for (byte slice = 0; slice < 2*n-1; ++slice) {
+    byte z = slice<n ? 0 : slice-n + 1;
+    for (byte j = z; j <= slice-z; ++j) {
+      y = 7-j;
+      x = (slice-j);
+      lc.setXY(addr, x, y, (++count <= maxcount));
+    }
+  }
+}
+
+
+
+/**
+ * Detect orientation using the accelerometer
+ *
+ *     | up | right | left | down |
+ * --------------------------------
+ * 400 |    |       | y    | x    |
+ * 330 | y  | x     | x    | y    |
+ * 260 | x  | y     |      |      |
+ */
+int getGravity() {
+  int x = mpu6050.getAngleX();
+  int y = mpu6050.getAngleY();
+  if (y < ACC_THRESHOLD_LOW)  { return 90;   }
+  if (x > ACC_THRESHOLD_HIGH) { return 0;  }
+  if (y > ACC_THRESHOLD_HIGH) { return 270; }
+  if (x < ACC_THRESHOLD_LOW)  { return 180; }
+}
+
+
+int getTopMatrix() {
+  return (getGravity() == 90) ? MATRIX_A : MATRIX_B;
+}
+int getBottomMatrix() {
+  return (getGravity() != 90) ? MATRIX_A : MATRIX_B;
+}
+
+
+
+void resetTime() {
+  for (byte i=0; i<2; i++) {
+    lc.clearDisplay(i);
+  }
+  fill(getTopMatrix(), 60);
+  d.Delay(getDelayDrop() * 1000);
+}
+
+
+
+/**
+ * Traverse matrix and check if particles need to be moved
+ */
+bool updateMatrix() {
+  int n = 8;
+  bool somethingMoved = false;
+  byte x,y;
+  bool direction;
+  for (byte slice = 0; slice < 2*n-1; ++slice) {
+    direction = (random(2) == 1); // randomize if we scan from left to right or from right to left, so the grain doesn't always fall the same direction
+    byte z = slice<n ? 0 : slice-n + 1;
+    for (byte j = z; j <= slice-z; ++j) {
+      y = direction ? (7-j) : (7-(slice-j));
+      x = direction ? (slice-j) : j;
+      // for (byte d=0; d<2; d++) { lc.invertXY(0, x, y); delay(50); }
+      if (moveParticle(MATRIX_B, x, y)) {
+        somethingMoved = true;
+      };
+      if (moveParticle(MATRIX_A, x, y)) {
+        somethingMoved = true;
+      }
+    }
+  }
+  return somethingMoved;
+}
+
+
+
+/**
+ * Let a particle go from one matrix to the other
+ */
+boolean dropParticle() {
+  if (d.Timeout()) {
+    d.Delay(getDelayDrop() * 1000);
+    if (gravity == 0 || gravity == 180) {
+      if ((lc.getRawXY(MATRIX_A, 0, 0) && !lc.getRawXY(MATRIX_B, 7, 7)) ||
+          (!lc.getRawXY(MATRIX_A, 0, 0) && lc.getRawXY(MATRIX_B, 7, 7))
+      ) {
+        // for (byte d=0; d<8; d++) { lc.invertXY(0, 0, 7); delay(50); }
+        lc.invertRawXY(MATRIX_A, 0, 0);
+        lc.invertRawXY(MATRIX_B, 7, 7);
+        tone(PIN_BUZZER, 440, 10);
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+
+
+void alarm() {
+  for (int i=0; i<5; i++) {
+    tone(PIN_BUZZER, 440, 200);
+    delay(1000);
+  }
+}
+
+
+
+void resetCheck() {
+  int z = analogRead(A3);
+  if (z > ACC_THRESHOLD_HIGH || z < ACC_THRESHOLD_LOW) {
+    resetCounter++;
+    Serial.println(resetCounter);
+  } else {
+    resetCounter = 0;
+  }
+  if (resetCounter > 20) {
+    Serial.println("RESET!");
+    resetTime();
+    resetCounter = 0;
+  }
+}
+
+
+
+void displayLetter(char letter, int matrix) {
+  // Serial.print("Letter: ");
+  // Serial.println(letter);
+  lc.clearDisplay(matrix);
+  lc.setXY(matrix, 1,4, true);
+  lc.setXY(matrix, 2,3, true);
+  lc.setXY(matrix, 3,2, true);
+  lc.setXY(matrix, 4,1, true);
+
+  lc.setXY(matrix, 3,6, true);
+  lc.setXY(matrix, 4,5, true);
+  lc.setXY(matrix, 5,4, true);
+  lc.setXY(matrix, 6,3, true);
+
+  if (letter == 'M') {
+    lc.setXY(matrix, 4,2, true);
+    lc.setXY(matrix, 4,3, true);
+    lc.setXY(matrix, 5,3, true);
+  }
+  if (letter == 'H') {
+    lc.setXY(matrix, 3,3, true);
+    lc.setXY(matrix, 4,4, true);
+  }
+}
+
+
+
+void renderSetMinutes() {
+  fill(getTopMatrix(), delayMinutes);
+  displayLetter('M', getBottomMatrix());
+}
+void renderSetHours() {
+  fill(getTopMatrix(), delayHours);
+  displayLetter('H', getBottomMatrix());
+}
+
+
+
+
+void knobClockwise() {
+  Serial.println("Clockwise");
+  if (mode == MODE_SETHOURS) {
+    delayHours = constrain(delayHours+1, 0, 64);
+    renderSetHours();
+  } else if(mode == MODE_SETMINUTES) {
+    delayMinutes = constrain(delayMinutes+1, 0, 64);
+    renderSetMinutes();
+  }
+  Serial.print("Delay: ");
+  Serial.println(getDelayDrop());
+}
+void knobCounterClockwise() {
+  Serial.println("Counterclockwise");
+  if (mode == MODE_SETHOURS) {
+    delayHours = constrain(delayHours-1, 0, 64);
+    renderSetHours();
+  } else if (mode == MODE_SETMINUTES) {
+    delayMinutes = constrain(delayMinutes-1, 0, 64);
+    renderSetMinutes();
+  }
+  Serial.print("Delay: ");
+  Serial.println(getDelayDrop());
+}
+
+
+
+volatile int lastEncoded = 0;
+volatile long encoderValue = 0;
+long lastencoderValue = 0;
+long lastValue = 0;
+void updateEncoder() {
+  int MSB = digitalRead(PIN_ENC_1); //MSB = most significant bit
+  int LSB = digitalRead(PIN_ENC_2); //LSB = least significant bit
+
+  int encoded = (MSB << 1) |LSB; //converting the 2 pin value to single number
+  int sum  = (lastEncoded << 2) | encoded; //adding it to the previous encoded value
+
+  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue--;
+  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue++;
+
+  // Serial.print("Value: ");
+  // Serial.println(encoderValue);
+  if ((encoderValue % 4) == 0) {
+    int value = encoderValue / 4;
+    if (value > lastValue) knobClockwise();
+    if (value < lastValue) knobCounterClockwise();
+    lastValue = value;
+  }
+  lastEncoded = encoded; //store this value for next time
+}
+
+
+
+/**
+ * Button callback (incl. software debouncer)
+ * This switches between the modes (normal, set minutes, set hours)
+ */
+volatile unsigned long lastButtonPushMillis;
+void buttonPush() {
+  if((long)(millis() - lastButtonPushMillis) >= DEBOUNCE_THRESHOLD) {
+    mode = (mode+1) % 3;
+    Serial.print("Switched mode to: ");
+    Serial.println(mode);
+    lastButtonPushMillis = millis();
+
+    if (mode == MODE_SETMINUTES) {
+      lc.backup(); // we only need to back when switching from MODE_HOURGLASS->MODE_SETMINUTES
+      renderSetMinutes();
+    }
+    if (mode == MODE_SETHOURS) {
+      renderSetHours();
+    }
+    if (mode == MODE_HOURGLASS) {
+      lc.clearDisplay(0);
+      lc.clearDisplay(1);
+      lc.restore();
+      resetTime();
+    }
+  }
+}
+
+
+
+/**
+ * Setup
+ */
+void setup() {
+
+Serial.begin(9600);
+
+
+mpu6050.calcGyroOffsets(true);
+ // Serial.begin(9600);
+mpu6050.begin();
+  
+  // while (!Serial) {
+  //   ; // wait for serial port to connect. Needed for native USB
+  // }
+
+  // setup rotary encoder
+  pinMode(PIN_ENC_1, INPUT);
+  pinMode(PIN_ENC_2, INPUT);
+  pinMode(PIN_ENC_BUTTON, INPUT);
+  digitalWrite(PIN_ENC_1, HIGH); //turn pullup resistor on
+  digitalWrite(PIN_ENC_2, HIGH); //turn pullup resistor on
+  digitalWrite(PIN_ENC_BUTTON, HIGH); //turn pullup resistor on
+  attachInterrupt(digitalPinToInterrupt(PIN_ENC_1), updateEncoder, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(PIN_ENC_2), updateEncoder, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(PIN_ENC_BUTTON), buttonPush, RISING);
+
+  // Serial.println(digitalPinToInterrupt(PIN_ENC_1));
+  // Serial.println(digitalPinToInterrupt(PIN_ENC_2));
+  // Serial.println(digitalPinToInterrupt(PIN_ENC_BUTTON));
+
+  randomSeed(analogRead(A0));
+
+  // init displays
+  for (byte i=0; i<2; i++) {
+    lc.shutdown(i,false);
+    lc.setIntensity(i,0);
+  }
+
+  resetTime();
+}
+
+
+
+/**
+ * Main loop
+ */
+void loop() {
+
+int valorFotorresistencia = analogRead(fotorresistenciaPin);
+
+  // Mapear el valor de la fotorresistencia al rango 1-13
+  int valorMapeado = map(valorFotorresistencia, 0, 1023, 13, 1);
+
+
+
+  mpu6050.update();
+  Serial.println("angleX : ");
+  Serial.println(mpu6050.getAngleX());
+  Serial.println("\tangleY : ");
+  Serial.println(mpu6050.getAngleY());
+ 
+  delay(DELAY_FRAME);
+  
+
+  // update the driver's rotation setting. For the rest of the code we pretend "down" is still 0,0 and "up" is 7,7
+  gravity = getGravity();
+  lc.setRotation((ROTATION_OFFSET + gravity) % 360);
+
+  // handle special modes
+  if (mode == MODE_SETMINUTES) {
+    renderSetMinutes(); return;
+  } else if (mode == MODE_SETHOURS) {
+    renderSetHours(); return;
+  }
+
+  // resetCheck(); // reset now happens when pushing a button
+  bool moved = updateMatrix();
+  bool dropped = dropParticle();
+
+  // alarm when everything is in the bottom part
+  if (!moved && !dropped && !alarmWentOff && (countParticles(getTopMatrix()) == 0)) {
+    alarmWentOff = true;
+    alarm();
+  }
+  // reset alarm flag next time a particle was dropped
+  if (dropped) {
+    alarmWentOff = false;
+  }
+}
+
+
+
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<a class="face-button" href="/descargas/Reloj_Arena_v05.rar" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<hr>
+<hr>
+<div id="reseñas-series" class="anchor"></div>
+<h3 class="relative group"><em>Reseñas series</em> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#rese%c3%b1as-series" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div id="ensayos-series" class="anchor"></div>
+<h1 class="relative group">ENSAYOS SERIES 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ensayos-series" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>The Billion dollar code
+
+
+
+<iframe class="" src="/pdf/Ale_cifuentes_V_ensayo_TBDC.pdf" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function toggleFullScreen(button) {
+        var iframe = button.previousElementSibling;
+        if (!document.fullscreenElement) {
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) {
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+        }
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            var iframes = document.getElementsByClassName("");
+            for (var i = 0; i < iframes.length; i++) {
+                var iframe = iframes[i];
+                if (document.fullscreenElement === iframe ||
+                    document.webkitFullscreenElement === iframe ||
+                    document.mozFullScreenElement === iframe ||
+                    document.msFullscreenElement === iframe) {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.mozCancelFullScreen) {
+                        document.mozCancelFullScreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    }
+                }
+            }
+        }
+    });
+</script>
+</p>
 <hr>
 <hr>
 <p><em>En proceso (&hellip;)</em></p>
