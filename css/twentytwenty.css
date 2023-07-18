@@ -1,0 +1,38 @@
+/* static/css/twentytwenty.css */
+.twentytwenty-container {
+  position: relative;
+  width: 100%;
+}
+
+.twentytwenty-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.twentytwenty-handle {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #fff; /* Color del divisor */
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  cursor: ew-resize;
+}
+
+.twentytwenty-overlay {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Color del overlay */
+  z-index: 1;
+  pointer-events: none;
+}
+
+.twentytwenty-horizontal .twentytwenty-handle {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  cursor: ns-resize;
+}
