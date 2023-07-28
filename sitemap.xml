@@ -112,14 +112,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_realidad_virtual_y_aumentada/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem04_liderazgo_2/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -409,6 +401,14 @@
     
       <url>
             <loc>https://aleinternet.github.io/proyectos/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_02_realidad_virtual_y_aumentada/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>

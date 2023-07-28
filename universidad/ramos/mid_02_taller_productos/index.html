@@ -685,7 +685,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-04---drawdio-2-remix"><em>Encargo 04 - Drawdio 2 remix</em></a></li>
+        <li><a href="#encargo-03---drawdio-2-remix"><em>Encargo 03 - Drawdio 2 remix</em></a></li>
       </ul>
     </li>
   </ul>
@@ -709,7 +709,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-05---reloj-de-arena-digital-1"><em>Encargo 05 - Reloj de arena digital</em></a></li>
+        <li><a href="#encargo-06---midterm"><em>Encargo 06 - MidTerm</em></a></li>
       </ul>
     </li>
   </ul>
@@ -717,6 +717,11 @@
   <ul>
     <li>
       <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
         <li><a href="#reseñas-series"><em>Reseñas series</em></a></li>
       </ul>
     </li>
@@ -751,7 +756,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-04---drawdio-2-remix"><em>Encargo 04 - Drawdio 2 remix</em></a></li>
+        <li><a href="#encargo-03---drawdio-2-remix"><em>Encargo 03 - Drawdio 2 remix</em></a></li>
       </ul>
     </li>
   </ul>
@@ -775,7 +780,7 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#encargo-05---reloj-de-arena-digital-1"><em>Encargo 05 - Reloj de arena digital</em></a></li>
+        <li><a href="#encargo-06---midterm"><em>Encargo 06 - MidTerm</em></a></li>
       </ul>
     </li>
   </ul>
@@ -783,6 +788,11 @@
   <ul>
     <li>
       <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
         <li><a href="#reseñas-series"><em>Reseñas series</em></a></li>
       </ul>
     </li>
@@ -1002,20 +1012,20 @@ Aunque inicialmente planeé utilizar la plataforma Arduino Cloud IoT para lograr
 <p>Posterior a eso, se le dio vuelta al concepto del Drawdio y del verbo &ldquo;almacenar&rdquo; y se creó una especie de caja de seguridad, en donde al intentarla abrir suena.</p>
 <hr>
 <hr>
-<div id="encargo-04---drawdio-2-remix" class="anchor"></div>
-<h3 class="relative group"><em>Encargo 04 - Drawdio 2 remix</em> 
+<div id="encargo-03---drawdio-2-remix" class="anchor"></div>
+<h3 class="relative group"><em>Encargo 03 - Drawdio 2 remix</em> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#encargo-04---drawdio-2-remix" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#encargo-03---drawdio-2-remix" aria-label="Anchor">#</a></span>        
     
 </h3>
-<div id="drawdio-3---el-remix" class="anchor"></div>
-<h1 class="relative group">DRAWDIO 3 - EL REMIX 
+<div id="drawdio-2---el-remix" class="anchor"></div>
+<h1 class="relative group">DRAWDIO 2 - EL REMIX 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#drawdio-3---el-remix" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#drawdio-2---el-remix" aria-label="Anchor">#</a></span>        
     
 </h1>
 <p>El encargo consistió en la combinación de dos elementos: <strong>el Drawdio y el Arduino</strong>. El Drawdio es un pseudo instrumento musical diseñado originalmente por Jay Silver en el MIT Media Lab, mientras que Arduino es una plataforma de prototipado electrónico de código abierto.</p>
@@ -1270,9 +1280,9 @@ void loop() {
 
 
 
-<iframe class="" src="/pdf/Ill_a_FigInfograf%c3%ada_sensor_v02.pdf" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+<iframe class="" src="/pdf/Ill_a_FigInfograf%c3%ada_sensor_v02.pdf#zoom=page-width" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
 
-<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver en Pantalla Completa</button>
 
 <script>
     function toggleFullScreen(button) {
@@ -1287,6 +1297,7 @@ void loop() {
             } else if (iframe.msRequestFullscreen) {
                 iframe.msRequestFullscreen();
             }
+            button.textContent = "Salir de Pantalla Completa";
         } else {
             if (document.exitFullscreen) {
                 document.exitFullscreen();
@@ -1297,6 +1308,7 @@ void loop() {
             } else if (document.msExitFullscreen) {
                 document.msExitFullscreen();
             }
+            button.textContent = "Ver en Pantalla Completa";
         }
     }
 
@@ -2273,24 +2285,1094 @@ int valorFotorresistencia = analogRead(fotorresistenciaPin);
 </a>
 
 
-<div id="encargo-05---reloj-de-arena-digital-1" class="anchor"></div>
-<h3 class="relative group"><em>Encargo 05 - Reloj de arena digital</em> 
+<hr>
+<hr>
+<div id="encargo-06---midterm" class="anchor"></div>
+<h3 class="relative group"><em>Encargo 06 - MidTerm</em> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#encargo-05---reloj-de-arena-digital-1" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#encargo-06---midterm" aria-label="Anchor">#</a></span>        
     
 </h3>
-<div id="reloj-del-tiempo-1" class="anchor"></div>
-<h1 class="relative group">Reloj del tiempo 
+<div id="advolution-espejo-emocional-viajero" class="anchor"></div>
+<h1 class="relative group">ADVOLUTION: Espejo emocional viajero 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#reloj-del-tiempo-1" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#advolution-espejo-emocional-viajero" aria-label="Anchor">#</a></span>        
     
 </h1>
-<p><a href="https://www.canva.com/design/DAFprk8zGSQ/6oIRCMrzpWRY7iSsDmlhmQ/edit?utm_content=DAFprk8zGSQ&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton"   target="_blank">
-    https://www.canva.com/design/DAFprk8zGSQ/6oIRCMrzpWRY7iSsDmlhmQ/edit?utm_content=DAFprk8zGSQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton</a></p>
+<blockquote>
+<p>El presente examen de diseño describe un prototipo de <strong>interacción emocional</strong> que combina tecnologías de reconocimiento facial en tiempo real con Arduino y Python para crear una experiencia única y personalizada.</p>
+</blockquote>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/Principal_01.jpg" alt="Portada" />
+      <figcaption>Equipo Advolution en prototipo</figcaption>
+    </figure>
+  
+
+</p>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.3415%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFp1sWaiDE&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFp1sWaiDE&#x2F;watch?utm_content=DAFp1sWaiDE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AdVolution (MIDTERM T.Producto)</a>
+<blockquote>
+<p>El objetivo principal del prototipo es generar emociones específicas a partir del reconocimiento facial y proporcionar una <strong>respuesta visual a través de luces LED y una matriz de LEDs 8x8 que simula un reloj de arena digital</strong>. La idea es implementar esta interacción emocional en espacios relacionados con viajes o agencias de viajes, donde dependiendo de la emoción del usuario, se le ofrecerá un destino con una oferta de tiempo limitado.</p>
+</blockquote>
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/coso_girando.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+
+<p><strong>Componentes:</strong></p>
+<ul>
+<li>
+<p><strong>Dispositivo de Captura de Imágenes:</strong> Se utiliza una cámara web conectada a una computadora para capturar imágenes faciales en tiempo real. Se emplea la biblioteca mediapipe de Python para la detección y seguimiento facial.</p>
+</li>
+<li>
+<p><strong>Procesamiento de Imágenes y Reconocimiento Emocional:</strong> La librería DeepFace de Python se utiliza para analizar las imágenes capturadas y extraer la emoción dominante del usuario en tiempo real.</p>
+</li>
+<li>
+<p><strong>Interacción con Arduino:</strong> Se establece una conexión serial entre la computadora y un Arduino, el cual controla un LED RGB y una matriz de LEDs 8x8.</p>
+</li>
+<li>
+<p><strong>Respuesta Visual del Prototipo:</strong></p>
+<ul>
+<li>
+<p><strong>LED RGB:</strong> El LED RGB cambia de color según la emoción detectada: azul para tristeza, rojo para enojo, verde para felicidad y morado para sorpresa.</p>
+</li>
+<li>
+<p><strong>Matriz de LEDs 8x8:</strong> Representa un reloj de arena digital, donde la parte superior se llena de forma aleatoria cuando se detecta una emoción, y luego &ldquo;cae&rdquo; hacia la parte inferior.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Interfaz de Usuario:</strong> En el futuro, se puede implementar una interfaz de usuario en una pantalla LED o una pantalla para proporcionar información adicional sobre el destino sugerido basado en la emoción del usuario.</p>
+</li>
+</ul>
+
+
+<div id="gallery-23">
+  
+  <img src="gallery/fondo_sad.jpg" class="grid-w33" />
+  <img src="gallery/fondo_saltando.jpg" class="grid-w33" />
+  <img src="gallery/fondo_sonriendo.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-23').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p><strong>Funcionamiento del Prototipo:</strong></p>
+<ol>
+<li>
+<p>El prototipo comienza capturando imágenes faciales en tiempo real mediante la cámara web.</p>
+</li>
+<li>
+<p>La biblioteca mediapipe procesa las imágenes y detecta la cara del usuario, mientras la librería DeepFace analiza la imagen y extrae la emoción dominante del usuario.</p>
+</li>
+<li>
+<p>El resultado de la emoción se utiliza para cambiar el color del LED RGB y activar la matriz de LEDs 8x8.</p>
+</li>
+<li>
+<p>El LED RGB se ilumina con el color correspondiente a la emoción detectada.
+La matriz de LEDs 8x8 se llena de forma aleatoria en la parte superior, simulando un reloj de arena.</p>
+</li>
+<li>
+<p>Luego, los LEDs de la matriz &ldquo;caen&rdquo; hacia la parte inferior, creando un efecto visual interesante.</p>
+</li>
+<li>
+<p>Si el usuario muestra otra emoción, el proceso se repite y el prototipo responde en consecuencia.</p>
+</li>
+<li>
+<p>El prototipo puede ofrecer un destino basado en la emoción detectada, lo que crea una experiencia interactiva y personalizada para el usuario.</p>
+</li>
+</ol>
+<p><strong>Proyecciones futuras</strong></p>
+
+
+<div id="gallery-24">
+  
+  <img src="gallery/mirando_1.jpg" class="grid-w33" />
+  <img src="gallery/mirando_2.jpg" class="grid-w33" />
+  <img src="gallery/mirando_3.jpg" class="grid-w33" />
+  <img src="gallery/mirando_4.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-24').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>El prototipo se puede implementar en espacios relacionados con viajes o agencias de viajes, como aeropuertos, estaciones de tren o agencias de turismo. La interacción emocional permitirá ofrecer destinos turísticos adecuados para el estado de ánimo del usuario, lo que crea una experiencia única y atractiva. Además, el uso de pantallas LED o pantallas como interfaz de usuario proporcionará información detallada sobre el destino sugerido y ofertas especiales de tiempo limitado, lo que aumentará el atractivo del prototipo para los usuarios.</p>
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/uai_mid2_advolution.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+
+<p>En conclusión, prototipo de interacción emocional con destino aleatorio representa una experiencia innovadora y única para los usuarios en espacios relacionados con viajes. La combinación de tecnologías de reconocimiento facial en tiempo real con Arduino y Python permite una respuesta visual dinámica y personalizada, lo que mejora la interacción del usuario y crea un ambiente emocionante. La implementación futura del prototipo en espacios turísticos y agencias de viajes tiene el potencial de atraer y cautivar a los usuarios, al tiempo que ofrece destinos sugeridos y ofertas especiales en función de sus emociones.</p>
+<p><strong>Código Python:</strong></p>
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;  
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 1;  
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
+<div class="code-viewer">
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
+
+
+# Importamos las librerias
+from deepface import DeepFace
+import cv2
+import mediapipe as mp
+
+import serial
+import time
+
+# Declaramos la deteccion de rostros
+detros = mp.solutions.face_detection
+rostros = detros.FaceDetection(min_detection_confidence= 0.8, model_selection=0)
+# Dibujo
+dibujorostro = mp.solutions.drawing_utils
+
+# Realizamos VideoCaptura
+cap = cv2.VideoCapture(1)
+
+espera = 0.03
+
+# Arduino
+def enviar_numero_a_arduino(numero):
+    arduino.write(str(numero).encode())
+    #print(f"Enviando número: {numero}")
+    time.sleep(2)
+
+arduino = serial.Serial("COM5", 9600)
+time.sleep(2)
+
+
+
+# Empezamos
+while True:
+    # Leemos los fotogramas
+    ret, frame = cap.read()
+    # Leemos imagen
+    #img =cv2.imread("img.png")
+    #img = cv2.resize(img, (0, 0), None, 0.18, 0.18)
+    #ani, ali, c = img.shape
+
+    # Correccion de color
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+
+    # Procesamos
+    resrostros = rostros.process(rgb)
+
+    # Deteccion
+    if resrostros.detections is not None:
+        # Registramos
+        for rostro in resrostros.detections:
+            # Extraemos informacion de ubicacion
+            al, an, c = frame.shape
+            box = rostro.location_data.relative_bounding_box
+            xi, yi, w, h = int(box.xmin * an), int(box.ymin * al), int(box.width * an), int(box.height * al)
+            xf, yf = xi + w, yi + h
+
+            # Dibujamos
+            cv2.rectangle(frame, (xi, yi), (xf, yf), (255, 255, 0), 1)
+            #frame[10:ani + 10, 10:ali+10] = img
+
+            # Informacion
+            #info = DeepFace.analyze(rgb, actions=['age', 'gender', 'race', 'emotion'], enforce_detection= False)
+            info = DeepFace.analyze(rgb, actions=['emotion'], enforce_detection= False)
+
+            # Edad
+            #edad = info['age']
+
+            # Emociones
+            emociones = info['dominant_emotion']
+
+            # Race
+            #race = info['dominant_race']
+
+            # Genero
+            #gen = info['gender']
+            #print(str(gen) + " de " + str(edad) + " años de edad, con estado de animo " + str(emociones) + " de etnia " + str(race))
+
+            # Traducimos
+  
+                # Emociones
+            if emociones == 'angry':
+                numero = 1
+                time.sleep(espera)
+            if emociones == 'disgust':
+                numero = 1
+                time.sleep(espera)
+            if emociones == 'fear':
+                numero = 3
+                time.sleep(espera)
+            if emociones == 'happy':
+                numero = 2
+                time.sleep(espera)
+            if emociones == 'sad':
+                numero = 3
+                time.sleep(espera)
+            if emociones == 'surprise':
+                numero = 5
+                time.sleep(espera)
+            if emociones == 'neutral':
+                numero = 1
+                time.sleep(espera)
+                    
+            enviar_numero_a_arduino(numero)
+
+            # Mostramos info
+            #cv2.putText(frame, str(gen), (65, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
+            #cv2.putText(frame, str(edad), (75, 90), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
+            #cv2.putText(frame, str(emociones), (75, 135), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
+            #cv2.putText(frame, str(race), (75, 180), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 0), 2)
+
+    # Mostramos los fotogramas
+    #cv2.imshow(" Deteccion de Edad ", frame)
+
+    # Leemos el teclado
+    t = cv2.waitKey(5)
+    if t == 27:
+        break
+
+cv2.destroyAllWindows()
+cap.release()
+
+
+
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<a class="face-button" href="/descargas/Union_arduino_v06.py" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<div id="código-arduino" class="anchor"></div>
+<h5 class="relative group"><strong>Código Arduino:</strong> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#c%c3%b3digo-arduino" aria-label="Anchor">#</a></span>        
+    
+</h5>
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;  
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 1;  
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
+<div class="code-viewer">
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
+
+#include "Arduino.h"
+#include "LedControl.h"
+#include "Delay.h"
+
+
+///////////////////////////////////////////////                       MATRICES                       /////////////////////////////////////////////// 
+
+#define  MATRIX_A  1
+#define  MATRIX_B  0
+
+// Values are 260/330/400
+#define ACC_THRESHOLD_LOW 300
+#define ACC_THRESHOLD_HIGH 360
+
+// Matrix
+#define PIN_DATAIN 5   // DIN
+#define PIN_CLK 4      // CLK
+#define PIN_LOAD 6     // CS
+
+// Esto tiene en cuenta cómo se montan las matrices.
+#define ROTATION_OFFSET 90
+
+// in milliseconds
+#define DEBOUNCE_THRESHOLD 500
+
+#define DELAY_FRAME 100        //Velocidad de caida de particulas, original 100. A mayor numero, más lento.
+
+#define DEBUG_OUTPUT 1
+
+#define MODE_HOURGLASS 0
+#define MODE_SETMINUTES 1
+#define MODE_SETHOURS 2
+
+byte delayHours = 0;
+byte delayMinutes = 1;
+int mode = MODE_HOURGLASS;
+int gravity;
+LedControl lc = LedControl(PIN_DATAIN, PIN_CLK, PIN_LOAD, 8);
+NonBlockDelay d;
+int resetCounter = 0;
+bool alarmWentOff = false;
+
+
+///////////////////////////////////////////////                       LED RGB                       /////////////////////////////////////////////// 
+
+int LEDROJO = 9;		// pin 9 a anodo LED rojo
+int LEDVERDE = 10;		// pin 10 a anodo LED verde
+int LEDAZUL = 11;		// pin 11 a anodo LED azul
+
+int numero = 8;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////                     CÓDIGO                       /////////////////////////////////////////////// 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+/**
+ * Obtener retraso entre caídas de partículas (en segundos)
+ */
+long getDelayDrop() {
+  // como tenemos exactamente 60 partículas, no tenemos que multiplicar por 60 y luego dividir por el número de partículas nuevamente
+  return delayMinutes + delayHours * 60;
+}
+
+
+#if DEBUG_OUTPUT
+void printmatrix() {
+  Serial.println(" 0123-4567 ");
+  for (int y = 0; y<8; y++) {
+    if (y == 4) {
+      Serial.println("|----|----|");
+    }
+    Serial.print(y);
+    for (int x = 0; x<8; x++) {
+      if (x == 4) {
+        Serial.print("|");
+      }
+      Serial.print(lc.getXY(0,x,y) ? "X" :" ");
+    }
+    Serial.println("|");
+  }
+  Serial.println("-----------");
+}
+#endif
+
+
+
+coord getDown(int x, int y) {
+  coord xy;
+  xy.x = x-1;
+  xy.y = y+1;
+  return xy;
+}
+coord getLeft(int x, int y) {
+  coord xy;
+  xy.x = x-1;
+  xy.y = y;
+  return xy;
+}
+coord getRight(int x, int y) {
+  coord xy;
+  xy.x = x;
+  xy.y = y+1;
+  return xy;
+}
+
+
+bool canGoLeft(int addr, int x, int y) {
+  if (x == 0) return false; // not available
+  return !lc.getXY(addr, getLeft(x, y));              // you can go there if this is empty
+}
+bool canGoRight(int addr, int x, int y) {
+  if (y == 7) return false; // not available
+  return !lc.getXY(addr, getRight(x, y));             // you can go there if this is empty
+}
+bool canGoDown(int addr, int x, int y) {
+  if (y == 7) return false; // not available
+  if (x == 0) return false; // not available
+  if (!canGoLeft(addr, x, y)) return false;
+  if (!canGoRight(addr, x, y)) return false;
+  return !lc.getXY(addr, getDown(x, y));              // you can go there if this is empty
+}
+
+
+
+void goDown(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getDown(x,y), true);
+}
+void goLeft(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getLeft(x,y), true);
+}
+void goRight(int addr, int x, int y) {
+  lc.setXY(addr, x, y, false);
+  lc.setXY(addr, getRight(x,y), true);
+}
+
+
+int countParticles(int addr) {
+  int c = 0;
+  for (byte y=0; y<8; y++) {
+    for (byte x=0; x<8; x++) {
+      if (lc.getXY(addr, x, y)) {
+        c++;
+      }
+    }
+  }
+  return c;
+}
+
+
+bool moveParticle(int addr, int x, int y) {
+  if (!lc.getXY(addr,x,y)) {
+    return false;
+  }
+
+  bool can_GoLeft = canGoLeft(addr, x, y);
+  bool can_GoRight = canGoRight(addr, x, y);
+
+  if (!can_GoLeft && !can_GoRight) {
+    return false; // we're stuck
+  }
+
+  bool can_GoDown = canGoDown(addr, x, y);
+
+  if (can_GoDown) {
+    goDown(addr, x, y);
+  } else if (can_GoLeft&& !can_GoRight) {
+    goLeft(addr, x, y);
+  } else if (can_GoRight && !can_GoLeft) {
+    goRight(addr, x, y);
+  } else if (random(2) == 1) {                  // Podemos ir a izquierda y derecha, pero no abajo
+    goLeft(addr, x, y);
+  } else {
+    goRight(addr, x, y);
+  }
+  return true;
+}
+
+
+void fill(int addr, int maxcount, bool fromTop = false) {
+  int n = 8;
+  byte x, y;
+  int count = 0;
+  for (byte slice = 0; slice < 2 * n - 1; ++slice) {
+    byte z = slice < n ? 0 : slice - n + 1;
+    for (byte j = z; j <= slice - z; ++j) {
+      y = fromTop ? j : 7 - j;
+      x = slice - j;
+      lc.setXY(addr, x, y, (++count <= maxcount));
+    }
+  }
+}
+
+
+
+
+/**
+ * Detectar la orientación usando el acelerómetro
+ *
+ *     | up | right | left | down |
+ * --------------------------------
+ * 400 |    |       | y    | x    |
+ * 330 | y  | x     | x    | y    |
+ * 260 | x  | y     |      |      |
+ */
+int getGravity() {
+/*  
+  int x = analogRead(PIN_X);
+  int y = analogRead(PIN_Y);
+  if (y < ACC_THRESHOLD_LOW)  { return 0;   }
+  if (x > ACC_THRESHOLD_HIGH) { return 90;  }
+  if (y > ACC_THRESHOLD_HIGH) { return 180; }
+  if (x < ACC_THRESHOLD_LOW)  { return 270; }
+*/  
+  int x = 180;       // Agregado
+  int y = 180;       // Agregado
+  return x;          // Agregado
+  return y;          // Agregado
+}
+
+
+int getTopMatrix() {
+  return (getGravity() == 90) ? MATRIX_A : MATRIX_B;
+}
+int getBottomMatrix() {
+  return (getGravity() != 90) ? MATRIX_A : MATRIX_B;
+}
+
+
+//                                                                                                            // Para ver cuantos granos iniciales de arriba parten                                   **********************
+
+/*
+//int totalParticles = random(65);  // Generar un número aleatorio entre 0 y 64
+  int totalParticles = 4;
+
+*/
+
+
+void resetTime() {
+  for (byte i = 0; i < 2; i++) {
+    lc.clearDisplay(i);
+  }
+
+  //int totalParticles = random(62);  // Generar un número aleatorio entre 0 y 64
+  int totalParticles = 4;
+
+  int particlesMatrixA = totalParticles;
+  int particlesMatrixB = 64 - totalParticles;
+
+  // Llenar ambas matrices desde la parte superior
+  fill(getTopMatrix(), particlesMatrixA, true);
+  fill(getBottomMatrix(), particlesMatrixB, true);
+
+  d.Delay(getDelayDrop() * 1000);
+}
+
+
+
+
+
+
+/**
+ * Atraviese la matriz y compruebe si es necesario mover las partículas
+ */
+bool updateMatrix() {
+  int n = 8;
+  bool somethingMoved = false;
+  byte x,y;
+  bool direction;
+  for (byte slice = 0; slice < 2*n-1; ++slice) {
+    direction = (random(2) == 1); // RANDOM de izq o der de granito al no haber centro
+    byte z = slice<n ? 0 : slice-n + 1;
+    for (byte j = z; j <= slice-z; ++j) {
+      y = direction ? (7-j) : (7-(slice-j));
+      x = direction ? (slice-j) : j;
+      // for (byte d=0; d<2; d++) { lc.invertXY(0, x, y); delay(50); }
+      if (moveParticle(MATRIX_B, x, y)) {
+        somethingMoved = true;
+      };
+      if (moveParticle(MATRIX_A, x, y)) {
+        somethingMoved = true;
+      }
+    }
+  }
+  return somethingMoved;
+}
+
+
+
+/**
+ * Deja que una partícula pase de una matriz a otra
+ */
+boolean dropParticle() {
+  if (d.Timeout()) {
+    d.Delay(getDelayDrop() * 1000);
+    if (gravity == 0 || gravity == 180) {
+      if ((lc.getRawXY(MATRIX_A, 0, 0) && !lc.getRawXY(MATRIX_B, 7, 7)) ||
+          (!lc.getRawXY(MATRIX_A, 0, 0) && lc.getRawXY(MATRIX_B, 7, 7))
+      ) {
+        // for (byte d=0; d<8; d++) { lc.invertXY(0, 0, 7); delay(50); }
+        lc.invertRawXY(MATRIX_A, 0, 0);
+        lc.invertRawXY(MATRIX_B, 7, 7);
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+void resetCheck() {
+  int z = analogRead(A3);
+  if (z > ACC_THRESHOLD_HIGH || z < ACC_THRESHOLD_LOW) {
+    resetCounter++;
+    Serial.println(resetCounter);
+  } else {
+    resetCounter = 0;
+  }
+  if (resetCounter > 20) {
+    Serial.println("RESET!");
+    resetTime();
+    resetCounter = 0;
+  }
+}
+
+void displayLetter(char letter, int matrix) {
+  // Serial.print("Letter: ");
+  // Serial.println(letter);
+  lc.clearDisplay(matrix);
+  lc.setXY(matrix, 1,4, true);
+  lc.setXY(matrix, 2,3, true);
+  lc.setXY(matrix, 3,2, true);
+  lc.setXY(matrix, 4,1, true);
+
+  lc.setXY(matrix, 3,6, true);
+  lc.setXY(matrix, 4,5, true);
+  lc.setXY(matrix, 5,4, true);
+  lc.setXY(matrix, 6,3, true);
+
+  if (letter == 'M') {
+    lc.setXY(matrix, 4,2, true);
+    lc.setXY(matrix, 4,3, true);
+    lc.setXY(matrix, 5,3, true);
+  }
+  if (letter == 'H') {
+    lc.setXY(matrix, 3,3, true);
+    lc.setXY(matrix, 4,4, true);
+  }
+}
+
+
+
+void renderSetMinutes() {
+  fill(getTopMatrix(), delayMinutes);
+  displayLetter('M', getBottomMatrix());
+}
+void renderSetHours() {
+  fill(getTopMatrix(), delayHours);
+  displayLetter('H', getBottomMatrix());
+}
+
+
+
+
+void knobClockwise() {
+  Serial.println("Clockwise");
+  if (mode == MODE_SETHOURS) {
+    delayHours = constrain(delayHours+1, 0, 64);
+    renderSetHours();
+  } else if(mode == MODE_SETMINUTES) {
+    delayMinutes = constrain(delayMinutes+1, 0, 64);
+    renderSetMinutes();
+  }
+  Serial.print("Delay: ");
+  Serial.println(getDelayDrop());
+}
+void knobCounterClockwise() {
+  Serial.println("Counterclockwise");
+  if (mode == MODE_SETHOURS) {
+    delayHours = constrain(delayHours-1, 0, 64);
+    renderSetHours();
+  } else if (mode == MODE_SETMINUTES) {
+    delayMinutes = constrain(delayMinutes-1, 0, 64);
+    renderSetMinutes();
+  }
+  Serial.print("Delay: ");
+  Serial.println(getDelayDrop());
+}
+
+
+
+volatile int lastEncoded = 0;
+volatile long encoderValue = 0;
+long lastencoderValue = 0;
+long lastValue = 0;
+void updateEncoder() {
+  
+/*  
+  int MSB = digitalRead(PIN_ENC_1); //MSB = most significant bit
+  int LSB = digitalRead(PIN_ENC_2); //LSB = least significant bit
+*/
+  int MSB = 0; //MSB = most significant bit      //Agregado
+  int LSB = 0; //LSB = least significant bit     //Agregado
+  
+
+  int encoded = (MSB << 1) |LSB; //converting the 2 pin value to single number
+  int sum  = (lastEncoded << 2) | encoded; //adding it to the previous encoded value
+
+  if(sum == 0b1101 || sum == 0b0100 || sum == 0b0010 || sum == 0b1011) encoderValue--;
+  if(sum == 0b1110 || sum == 0b0111 || sum == 0b0001 || sum == 0b1000) encoderValue++;
+
+  // Serial.print("Value: ");
+  // Serial.println(encoderValue);
+  if ((encoderValue % 4) == 0) {
+    int value = encoderValue / 4;
+    if (value > lastValue) knobClockwise();
+    if (value < lastValue) knobCounterClockwise();
+    lastValue = value;
+  }
+  lastEncoded = encoded; //store this value for next time
+}
+
+
+
+/**
+ * Button callback (incl. software debouncer)
+ * Esto cambia entre los modos (normal, establecer minutos, establecer horas)
+ */
+volatile unsigned long lastButtonPushMillis;
+void buttonPush() {
+  
+  if((long)(millis() - lastButtonPushMillis) >= DEBOUNCE_THRESHOLD) {
+    mode = (mode+1) % 3;
+    Serial.print("Modo cambiado a: ");
+    Serial.println(mode);
+    lastButtonPushMillis = millis();
+
+    if (mode == MODE_SETMINUTES) {
+      lc.backup(); // we only need to back when switching from MODE_HOURGLASS->MODE_SETMINUTES
+      renderSetMinutes();
+    }
+    
+    if (mode == MODE_SETHOURS) {
+      renderSetHours();
+    }
+    
+    if (mode == MODE_HOURGLASS) {
+      lc.clearDisplay(0);
+      lc.clearDisplay(1);
+      lc.restore();
+      resetTime();
+    }
+    
+  }
+}
+
+///////////////////////////////////////////////                       SETUP                       ///////////////////////////////////////////////
+
+void setup() {
+
+  Serial.begin(9600);
+
+  pinMode(LEDROJO, OUTPUT);	// todos los pines como salida del led RGB
+  pinMode(LEDVERDE, OUTPUT);
+  pinMode(LEDAZUL, OUTPUT);
+
+
+  randomSeed(analogRead(A0));
+
+  // init displays
+  for (byte i=0; i<2; i++) {
+    lc.shutdown(i,false);
+    lc.setIntensity(i,0);     //Controla la intensidad de brillo en las particulas
+  }
+  resetTime();
+}
+
+
+
+
+///////////////////////////////////////////////                       LOOP                       ///////////////////////////////////////////////
+
+void loop() {
+
+
+
+
+
+//////////////////////////                      MATRICES                       ////////////////////////////////
+
+  delay(DELAY_FRAME);
+
+  // actualizar la configuración de rotación del controlador. Para el resto del código pretendemos que "abajo" sigue siendo 0,0 y "arriba" es 7,7
+  gravity = getGravity();
+  lc.setRotation((ROTATION_OFFSET + gravity) % 180);
+
+  // manejar modos especiales
+  if (mode == MODE_SETMINUTES) {
+    renderSetMinutes(); return;
+  } else if (mode == MODE_SETHOURS) {
+    renderSetHours(); return;
+  }
+
+  // resetCheck();                   // el reinicio ahora ocurre al presionar un botón
+  bool moved = updateMatrix();
+  bool dropped = dropParticle();
+
+  // alarma cuando todo está en la parte inferior
+  if (!moved && !dropped && !alarmWentOff && (countParticles(getTopMatrix()) == 0)) {
+    alarmWentOff = true;
+    resetTime();            //Agregado
+  }
+  // reset alarm flag next time a particle was dropped
+  if (dropped) {
+    alarmWentOff = false;
+  }
+
+//////////////////////////////                      Colores led rgb                       ///////////////////////////////// 
+///*
+  // Esperamos a recibir un número desde Python
+  //while (!Serial.available()) {
+  //  delay(10);
+  //}
+
+  // Leemos el número enviado desde Python
+  if (Serial.available()>0){
+
+    numero = Serial.parseInt();
+
+    delay(100);
+
+  
+  
+
+  // Si el número es mayor o igual a 5, encendemos el LED
+  if (numero == 1) {
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 0);
+    analogWrite(LEDAZUL, 0);
+    //delay(2000);
+  }
+  else if (numero == 2){
+    analogWrite(LEDROJO, 0);
+    analogWrite(LEDVERDE, 255);
+    analogWrite(LEDAZUL, 0);
+    //delay(2000);
+  }
+  else if (numero == 3) {
+    analogWrite(LEDROJO, 0);
+    analogWrite(LEDVERDE, 0);
+    analogWrite(LEDAZUL, 255);
+    //delay(2000);
+  }
+
+  else if (numero == 4)  {           // Cian
+    analogWrite(LEDROJO, 0);
+    analogWrite(LEDVERDE, 255);
+    analogWrite(LEDAZUL, 255);
+    //delay(2000);
+  }
+
+  else if (numero == 5)  {           // Morado
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 0);
+    analogWrite(LEDAZUL, 255);
+    //delay(2000);
+  }
+
+  else if (numero == 6)  {           // Amarillo
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 40);
+    analogWrite(LEDAZUL, 10);
+    //delay(2000);
+  }
+
+  else if (numero == 7)  {           // Blanco
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 255);
+    analogWrite(LEDAZUL, 255);
+    //delay(2000);
+  }
+
+  else if (numero == 8)  {           // Naranjo
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 10);
+    analogWrite(LEDAZUL, 0);
+    //delay(2000);
+  }
+
+  else if (numero == 9)  {           // Rosa
+    analogWrite(LEDROJO, 255);
+    analogWrite(LEDVERDE, 10);
+    analogWrite(LEDAZUL, 10);
+    //delay(2000);
+  }
+/*
+  else if (numero >= 10) {           //  APAGADO
+    analogWrite(LEDROJO, 0);
+    analogWrite(LEDVERDE, 0);
+    analogWrite(LEDAZUL, 0);
+    //delay(2000);
+  }
+*/  
+
+  // Esperamos un poco para evitar recibir datos repetidos
+  //delay(100);
+
+  }
+
+
+  
+}
+
+
+
+
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<a class="face-button" href="/descargas/Reloj_Arena_union_python_v02.rar" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
 <hr>
 <hr>
 <div id="reseñas-series" class="anchor"></div>
@@ -2313,9 +3395,9 @@ int valorFotorresistencia = analogRead(fotorresistenciaPin);
 
 
 
-<iframe class="" src="/pdf/Ale_cifuentes_V_ensayo_TBDC.pdf" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+<iframe class="" src="/pdf/Ale_cifuentes_V_ensayo_TBDC_v02.pdf#zoom=page-width" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
 
-<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver en Pantalla Completa</button>
 
 <script>
     function toggleFullScreen(button) {
@@ -2330,6 +3412,7 @@ int valorFotorresistencia = analogRead(fotorresistenciaPin);
             } else if (iframe.msRequestFullscreen) {
                 iframe.msRequestFullscreen();
             }
+            button.textContent = "Salir de Pantalla Completa";
         } else {
             if (document.exitFullscreen) {
                 document.exitFullscreen();
@@ -2340,6 +3423,67 @@ int valorFotorresistencia = analogRead(fotorresistenciaPin);
             } else if (document.msExitFullscreen) {
                 document.msExitFullscreen();
             }
+            button.textContent = "Ver en Pantalla Completa";
+        }
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            var iframes = document.getElementsByClassName("");
+            for (var i = 0; i < iframes.length; i++) {
+                var iframe = iframes[i];
+                if (document.fullscreenElement === iframe ||
+                    document.webkitFullscreenElement === iframe ||
+                    document.mozFullScreenElement === iframe ||
+                    document.msFullscreenElement === iframe) {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.mozCancelFullScreen) {
+                        document.mozCancelFullScreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    }
+                }
+            }
+        }
+    });
+</script>
+</p>
+<p>Olafur Eliasson: El diseño del Arte
+
+
+
+<iframe class="" src="/pdf/Ale_cifuentes_V_ensayo_olafur_eliasson.pdf#zoom=page-width" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver en Pantalla Completa</button>
+
+<script>
+    function toggleFullScreen(button) {
+        var iframe = button.previousElementSibling;
+        if (!document.fullscreenElement) {
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) {
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+            button.textContent = "Salir de Pantalla Completa";
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+            button.textContent = "Ver en Pantalla Completa";
         }
     }
 
