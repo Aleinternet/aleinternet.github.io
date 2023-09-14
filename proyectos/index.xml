@@ -5,6 +5,16 @@
     <link>https://aleinternet.github.io/proyectos/</link>
     <description>Recent content in Proyectos on Alein TheThings</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://aleinternet.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://aleinternet.github.io/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An External Article</title>
+      <link>https://aleinternet.github.io/proyectos/1/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/proyectos/1/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -3,6 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/</loc>
+            <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/portafolio/</loc>
+            <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/proyectos/</loc>
+            <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
       <url>
             <loc>https://aleinternet.github.io/personas/</loc>
             <changefreq>daily</changefreq>
@@ -32,6 +69,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/cosas/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/contacto/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -57,46 +102,6 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem06_electronica_aplicada/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/cosas/1/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/cosas/2/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/cosas/3/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/cosas/4/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/cosas/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -288,6 +293,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/favores/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_01_habilidades_creativas/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -297,14 +310,6 @@
     
       <url>
             <loc>https://aleinternet.github.io/markdown/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -352,14 +357,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/portafolio/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem07_procesos_fab_industria/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -376,7 +373,23 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/proyectos/</loc>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_economia_dise%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_etnografia/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_tecnologias_3d/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -399,23 +412,11 @@
     
   
     
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/favores/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
       <url>
             <loc>https://aleinternet.github.io/shortcodes/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
-    
-  
     
   
     
@@ -453,6 +454,14 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem08_taller_proyecto_complejo/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_taller_servicios/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>

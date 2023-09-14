@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portafolio on Alein TheThings</title>
+    <link>https://aleinternet.github.io/series/portafolio/</link>
+    <description>Recent content in Portafolio on Alein TheThings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://aleinternet.github.io/series/portafolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Umbrella 7</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_umbrella7/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_umbrella7/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Fundación Chile sin Cáncer CSC</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_csc/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_csc/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Realidad Virtual</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_vr/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_vr/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Edición videos</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_videos/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_videos/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Renders Arquitectura</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_renders_arq/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_renders_arq/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Renders Objetos</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_renders_obj/</link>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_renders_obj/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Retoques de imágenes</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_fotos_retoque/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_fotos_retoque/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Edición photoshop</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_photoshop/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_photoshop/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+    <item>
+      <title>Portada libro</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_portada_libro/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_portada_libro/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+  </channel>
+</rss>
