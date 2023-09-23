@@ -229,55 +229,7 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_animacion_1/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_historia_videojuegos/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_tratamiento_digital_imagenes_01/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_animacion_2/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_guion/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_ludologia_y_gamificacion/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_tratamiento_digital_imagenes_02/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -301,7 +253,39 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_animacion_1/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_dibujo_2/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_guion/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_01_habilidades_creativas/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_02_ludologia_y_gamificacion/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -478,6 +462,14 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/sem06_teoria_tendencias_dise%C3%B1o/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_tratamiento_digital_imagenes_01/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
