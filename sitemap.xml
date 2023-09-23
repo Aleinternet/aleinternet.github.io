@@ -389,14 +389,6 @@
   
     
       <url>
-            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_tecnologias_3d/</loc>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_02_vr/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -462,6 +454,14 @@
     
       <url>
             <loc>https://aleinternet.github.io/universidad/ramos/mid_03_taller_servicios/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aleinternet.github.io/universidad/ramos/mid_03_tecnologias_3d/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
