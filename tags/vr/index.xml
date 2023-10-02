@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VR on Alein TheThings</title>
+    <link>https://aleinternet.github.io/tags/vr/</link>
+    <description>Recent content in VR on Alein TheThings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aleinternet.github.io/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Realidad Virtual</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_vr/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_vr/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -690,6 +690,14 @@
       </ul>
     </li>
   </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#exámen"><em>Exámen</em></a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </details>
@@ -721,6 +729,14 @@
     <li>
       <ul>
         <li><a href="#encargo-03"><em>Encargo 03</em></a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#exámen"><em>Exámen</em></a></li>
       </ul>
     </li>
   </ul>
@@ -775,7 +791,7 @@
     
     <div class="min-w-0 min-h-0 max-w-prose">
       <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Repositorio de encargos del ramo de <strong>Tratamiento digital de imágenes I</strong>. Un crack el profe, fundió mi base en el photoshop y postproducción de imágenes.
+  Repositorio de encargos del ramo de <strong>Tratamiento digital de imágenes I</strong>. Un crack el profe, fundó mi base en el photoshop y postproducción de imágenes.
 </div>
 
 <p><em>Profesor: Walter Veneros</em></p>
@@ -855,6 +871,68 @@
   })
 </script>
 <br/>
+
+
+
+
+
+<iframe class="" src="/pdf/trat_juego.pdf#zoom=page-width" frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="toggleFullScreen(this)" class="button button-primary mb-2" style="width: 100%;">Ver en Pantalla Completa</button>
+
+<script>
+    function toggleFullScreen(button) {
+        var iframe = button.previousElementSibling;
+        if (!document.fullscreenElement) {
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) {
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+            button.textContent = "Salir de Pantalla Completa";
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+            button.textContent = "Ver en Pantalla Completa";
+        }
+    }
+
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            var iframes = document.getElementsByClassName("");
+            for (var i = 0; i < iframes.length; i++) {
+                var iframe = iframes[i];
+                if (document.fullscreenElement === iframe ||
+                    document.webkitFullscreenElement === iframe ||
+                    document.mozFullScreenElement === iframe ||
+                    document.msFullscreenElement === iframe) {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.mozCancelFullScreen) {
+                        document.mozCancelFullScreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+<br/>
 <div id="encargo-03" class="anchor"></div>
 <h3 class="relative group"><em>Encargo 03</em> 
     <span
@@ -873,7 +951,7 @@
 </h1>
 
 
-<div id="gallery-3">
+<div id="gallery-4">
   
   <img src="gallery/Pag1.jpg" class="grid-w33" />
   <img src="gallery/Pag3.jpg" class="grid-w33" />
@@ -885,7 +963,7 @@
 
 <script>
   $(window).on("load", function () {
-    $('#gallery-3').packery({
+    $('#gallery-4').packery({
       percentPosition: true,
       gutter: 5,
       resize: true
@@ -893,6 +971,60 @@
   })
 </script>
 <br/>
+<div id="exámen" class="anchor"></div>
+<h3 class="relative group"><em>Exámen</em> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ex%c3%a1men" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<div id="fotomontaje" class="anchor"></div>
+<h1 class="relative group">Fotomontaje 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#fotomontaje" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/vidalTerminado.jpg" alt="Vidal" />
+      <figcaption>Exámen fotomontaje</figcaption>
+    </figure>
+  
+
+</p>
+
+
+<div id="gallery-5">
+  
+  <img src="gallery/ex_.jpg" class="grid-w33" />
+  <img src="gallery/ex_ejemplo.jpg" class="grid-w33" />
+  <img src="gallery/ex_humo.jpg" class="grid-w33" />
+  <img src="gallery/ex_logo.png" class="grid-w33" />
+  <img src="gallery/ex_luces.jpg" class="grid-w33" />
+  <img src="gallery/ex_pasto.jpg" class="grid-w33" />
+  <img src="gallery/ex_publico.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-5').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
 
     </div>
    
