@@ -273,6 +273,14 @@
   
     
       <url>
+            <loc>https://aleinternet.github.io/24rayen/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aleinternet.github.io/universidad/ramos/uniacc_01_animacion_1/</loc>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
