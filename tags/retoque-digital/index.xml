@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retoque digital on Alein TheThings</title>
+    <link>https://aleinternet.github.io/tags/retoque-digital/</link>
+    <description>Recent content in Retoque digital on Alein TheThings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://aleinternet.github.io/tags/retoque-digital/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retoques de imágenes</title>
+      <link>https://aleinternet.github.io/portafolio/portafolio_fotos_retoque/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleinternet.github.io/portafolio/portafolio_fotos_retoque/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+    </item>
+    
+  </channel>
+</rss>
