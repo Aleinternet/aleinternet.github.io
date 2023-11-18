@@ -124,6 +124,9 @@
 
 
 
+<script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
+
+
 
 
   
@@ -652,17 +655,854 @@
   
   <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
   </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+  <section class="mt-12 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky lg:top-10">
+        <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#brown-nies">Brown nies</a></li>
+    <li><a href="#publigrama--la-publicidad-del-futuro">Publigrama | La publicidad del futuro</a></li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#brown-nies">Brown nies</a></li>
+    <li><a href="#publigrama--la-publicidad-del-futuro">Publigrama | La publicidad del futuro</a></li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+
+      </div>
+    </div>
     
     <div class="min-w-0 min-h-0 max-w-prose">
       <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Blowfish brings your content to life. 😍
+  Proyectos hechos a lo largo de mi vida. Son dos: un <code>emprendimiento de Brownies</code> gracias a los conocimientos de mi mamá sobre pastelería; y un <code>holograma</code> de publicidad realizado en la Universidad.
 </div>
 
-<p>This section contains some demo pages that show how Blowfish renders different types of content. You can also see an example <a href="https://aleinternet.github.io/tags/"  >
-    taxonomy listing</a> page.</p>
-<p><em><strong>Sidenote:</strong> This page is just a standard Blowfish article listing and Hugo has been configured to generate a <code>samples</code> content type and display article summaries.</em></p>
 <hr>
+<div id="brown-nies" class="anchor"></div>
+<h2 class="relative group">Brown nies 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#brown-nies" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/brownies_estreno.jpg" alt="Portada" />
+      
+    </figure>
+  
+
+</p>
+<p>En 2016, a mis 16 años, inicié este proyecto vendiendo en mi colegio. Con el tiempo, la demanda creció tanto que ya no tenía que salir a vender, la gente llegaba por sí sola. Decidí expandirme mediante publicaciones llamativas en Instagram, lo que resultó efectivo como estrategia publicitaria. En este período me acompañó mi mejor amigo Tomás, apoyando en las gráficas e ideas que iban surgiendo.</p>
+
+
+<div id="gallery-1">
+  
+  <img src="gallery/Oceano_finish.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/usai_v2.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/Cubismo_2_v2.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/Cubismo_3_DEPTO.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/Cubismo_1.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/año nuevo.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/aviones batalla.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/Bro_cofre_finish+.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-1').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>Más adelante, este emprendimiento prosperó durante mi tiempo en la universidad, donde se convirtió en parte de un proyecto para un ramo de negocios. El proyecto fue bien recibido, obteniendo elogios y generando ingresos significativos. Sin embargo, el desafío fue durante la pandemia, en donde era todo un tema el salir a entregar. Luego con el alza de costo de los insumos no salía rentable producir y vender brownies.</p>
+
+
+<div id="gallery-2">
+  
+  <img src="gallery/Pascua_insta.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/nose.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/mona_lisa.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/usai_v2.jpg" class="grid-w50 md:grid-w33 xl:grid-w25" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-2').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<p>Logros obetinos: vender 60 kg de mezcla en dos meses. Costear un viaje a Europa vendiendo en la U (no funcionó por Covid). Emprendimiento rentable en el ramo de la U.</p>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/brownie_9.jpg" alt="Portada" />
+      <figcaption>Holograma</figcaption>
+    </figure>
+  
+
+</p>
+<br/>
+<div id="publigrama--la-publicidad-del-futuro" class="anchor"></div>
+<h2 class="relative group">Publigrama | La publicidad del futuro 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#publigrama--la-publicidad-del-futuro" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>
+
+
+
+
+  
+  
+  
+    <figure>
+      <img class="my-0 rounded-md" src="img/zap_nike_holograma.jpg" alt="Portada" />
+      <figcaption>Holograma</figcaption>
+    </figure>
+  
+
+</p>
+<blockquote>
+<p>El presente proyecto de Diseño se realizó en la <a href="https://aleinternet.github.io/universidad/ramos/mid_02_taller_productos/"  >
+    Universidad</a>, y describe un proyecto de <strong>publicidad interactiva</strong> que combina tecnologías de visualización 3D con hologramas y electrónica que permite esta interactividad a través de &ldquo;botones de luz&rdquo;.</p>
+</blockquote>
+<div id="hahahugoshortcodes4hbhb" class="anchor"></div>
+<h1 class="relative group">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/iRD2AMXNaDA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+ 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hahahugoshortcodes4hbhb" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtHkOoaos&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtHkOoaos&#x2F;view?utm_content=DAFtHkOoaos&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">PUBLIGRAMA Presentación final</a>
+<p>Fabricación:</p>
+<p>Soldadura y corte fierros
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/mid_fab02.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+</p>
+<p>Corte láser MDF
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/mid_fab01.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+</p>
+<p>Electrónica y programación:
+<div>
+  <video id="" width="100%" height="450" muted loop controls preload>
+    <source src="/img/mid_publigrama.mp4" type="video/mp4">
+  </video>
+</div>
+
+<script>
+  var video = document.getElementById("");
+  video.removeAttribute("autoplay");
+</script>
+</p>
+<p>Proyección publicidad interactiva en hologramas</p>
+
+
+<div id="gallery-8">
+  
+  <img src="gallery/vision_10.jpg" class="grid-w33" />
+  <img src="gallery/vision_07.jpg" class="grid-w33" />
+  <img src="gallery/vision_03.jpg" class="grid-w33" />
+  <img src="gallery/vision_06.jpg" class="grid-w33" />
+  <img src="gallery/vision_04.jpg" class="grid-w33" />
+  <img src="gallery/vision_08.jpg" class="grid-w33" />
+  <img src="gallery/vision_01.jpg" class="grid-w33" />
+  <img src="gallery/vision_05.jpg" class="grid-w33" />
+  <img src="gallery/vision_09.jpg" class="grid-w33" />
+
+</div>
+
+<script>
+  $(window).on("load", function () {
+    $('#gallery-8').packery({
+      percentPosition: true,
+      gutter: 5,
+      resize: true
+    });
+  })
+</script>
+<div id="código-python" class="anchor"></div>
+<h5 class="relative group"><strong>Código Python:</strong> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#c%c3%b3digo-python" aria-label="Anchor">#</a></span>        
+    
+</h5>
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;  
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 1;  
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
+<div class="code-viewer">
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
+
+
+
+import serial
+import time
+import cv2
+import threading
+
+def enviar_numero_a_arduino(numero):
+    arduino.write(str(numero).encode())
+    time.sleep(2)
+
+def reproducir_video(ruta_video):
+    cap = cv2.VideoCapture(ruta_video)
+
+    # Verificar si se puede abrir el video
+    if not cap.isOpened():
+        print("Error al abrir el video.")
+        return
+
+    # Obtener dimensiones de la ventana de video
+    window_name = "Reproduciendo video"
+    cv2.namedWindow(window_name, cv2.WND_PROP_FULLSCREEN)
+    cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+
+    while True:
+        ret, frame = cap.read()
+
+        if not ret:
+            # Fin del video, salir de la reproducción
+            break
+
+        # Mostrar el fotograma en pantalla completa
+        cv2.imshow(window_name, frame)
+
+        # Esperar 30 ms y verificar si se presionó la tecla 'q' para salir
+        if cv2.waitKey(30) & 0xFF == ord('q'):
+            break
+        if valor_anterior != valor:
+            break
+
+    # Cerrar ventana al finalizar la reproducción
+    cv2.destroyAllWindows()
+
+# Función para reproducir el video en un hilo separado
+def reproducir_video_thread(ruta_video):
+    thread = threading.Thread(target=reproducir_video, args=(ruta_video,))
+    thread.start()
+    return thread
+
+# Configurar comunicación con Arduino
+arduino = serial.Serial("COM5", 9600)
+time.sleep(2)
+
+# Rutas de los videos
+ruta_rojo = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_rojo.mp4'
+ruta_verde = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_verde.mp4'
+ruta_azul = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_azul.mp4'
+ruta_amarilla = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_amarillo.mp4'
+ruta_morada = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_morado.mp4'
+ruta_cian = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_cian.mp4'
+ruta_blanco = r'D:\Baul\Ale_UAI_Cosas\2023\2do semestre\Taller_prod_Caaro_pino_fran\E07_publicida\Final\Videos\2vid_blanco.mp4'
+
+# Inicializar el valor anterior
+valor_anterior = None
+video_thread = None
+
+while True:
+    valor = arduino.readline().decode('utf-8').strip()
+    print(valor)
+
+    # Interrumpir el video en curso si se recibe un nuevo valor
+    if video_thread is not None and video_thread.is_alive():
+        video_thread.join()  # Esperar a que el hilo de reproducción termine
+        cv2.destroyAllWindows()
+
+    if valor == valor_anterior:
+        # Si el valor es igual al valor anterior, reproducir el video actual nuevamente
+        if valor == '1':
+            video_thread = reproducir_video_thread(ruta_rojo)
+        elif valor == '2':
+            video_thread = reproducir_video_thread(ruta_verde)
+        elif valor == '3':
+            video_thread = reproducir_video_thread(ruta_azul)
+        elif valor == '4':
+            video_thread = reproducir_video_thread(ruta_amarilla)
+        elif valor == '5':
+            video_thread = reproducir_video_thread(ruta_morada)
+        elif valor == '6':
+            video_thread = reproducir_video_thread(ruta_cian)
+        elif valor == '7':
+            video_thread = reproducir_video_thread(ruta_blanco)
+    else:
+        # Si el valor es diferente al valor anterior, actualizar el valor anterior y reproducir el video correspondiente
+        valor_anterior = valor
+        if valor == '1':
+            video_thread = reproducir_video_thread(ruta_rojo)
+        elif valor == '2':
+            video_thread = reproducir_video_thread(ruta_verde)
+        elif valor == '3':
+            video_thread = reproducir_video_thread(ruta_azul)
+        elif valor == '4':
+            video_thread = reproducir_video_thread(ruta_amarilla)
+        elif valor == '5':
+            video_thread = reproducir_video_thread(ruta_morada)
+        elif valor == '6':
+            video_thread = reproducir_video_thread(ruta_cian)
+        elif valor == '7':
+            video_thread = reproducir_video_thread(ruta_blanco)
+
+
+
+
+
+
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<a class="face-button" href="/descargas/publigrama_python.py" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<hr>
+<div id="código-arduino" class="anchor"></div>
+<h5 class="relative group"><strong>Código Arduino:</strong> 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#c%c3%b3digo-arduino" aria-label="Anchor">#</a></span>        
+    
+</h5>
+<style>
+  .code-viewer {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;  
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 1;  
+  }
+
+  .header button {
+    margin: 5px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .header:hover button {
+    text-decoration: underline;
+  }
+
+  .header.clicked {
+    background-color: #333;
+  }
+
+  .header.clicked button {
+    color: #f5f5f5;
+  }
+</style>
+
+<div class="code-viewer">
+  <div class="header" onclick="copyCodeToClipboard(this)">
+    <button id="copyButton">Copiar código</button>
+  </div>
+  <pre>
+    <code>
+      
+
+#include "Arduino.h"
+
+
+int espera = 100;
+int aumento = 10;
+
+int num_inicial = 50;
+int num_final = 52;
+
+///////////////////////////////////////////////                       SENSORES                      /////////////////////////////////////////////// 
+
+int sens_1 = 9;    
+int sens_2 = 10;    
+int sens_3 = 11;
+//int sens_4 = 10;  
+//int sens_5 = 9; 
+//int sens_6 = 8;     
+
+
+///////////////////////////////////////////////                       LED RGB                       /////////////////////////////////////////////// 
+
+int l_rojo = 2;   
+int l_verde = 3;    
+int l_azul = 4;
+int l_amarillo = 5; 
+//int l_morado = A0;  // ROJO
+//int l_cian = A1; // VERDE
+//int l_rgb = A2; // AZUL   
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////                     CÓDIGO                       /////////////////////////////////////////////// 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////                       SETUP                       ///////////////////////////////////////////////
+
+void setup() {
+
+  Serial.begin(9600);
+
+  pinMode(sens_1, INPUT);
+  pinMode(sens_2, INPUT);
+  pinMode(sens_3, INPUT);
+  //pinMode(sens_4, INPUT);
+  //pinMode(sens_5, INPUT);
+  //pinMode(sens_6, INPUT);
+
+  pinMode(l_rojo, OUTPUT);
+  pinMode(l_verde, OUTPUT);
+  pinMode(l_azul, OUTPUT);
+  //pinMode(l_amarillo, OUTPUT);
+  //pinMode(l_morado, OUTPUT);
+  //pinMode(l_cian, OUTPUT);
+  //pinMode(l_rgb, OUTPUT);
+
+
+
+  digitalWrite(l_rojo , HIGH);
+  digitalWrite(l_verde , HIGH);
+  digitalWrite(l_azul , HIGH);
+
+
+
+
+}
+
+  void loop() {
+
+
+
+///////////////////////////////////////////////                       LOOP                       ///////////////////////////////////////////////
+
+
+
+//////////////////////////////                      SENSORES                       /////////////////////////////////
+
+//////////     ROJO     /////////
+ if ((digitalRead(sens_1) == HIGH) & (digitalRead(sens_2)== LOW) & ((digitalRead(sens_3)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 1;
+      
+      if (num_inicial != num_final){
+        Serial.println("1");
+        num_inicial = 1;
+      }
+
+      
+      delay(espera);
+ }
+
+//////////     VERDE     /////////
+ else if ((digitalRead(sens_2) == HIGH) & (digitalRead(sens_1)== LOW) & ((digitalRead(sens_3)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 2;
+      
+      if (num_inicial != num_final){
+        Serial.println("2");
+        num_inicial = 2;
+      }
+      
+      delay(espera);
+ }
+
+//////////     AZUL     /////////
+ else if ((digitalRead(sens_3) == HIGH) & (digitalRead(sens_1)== LOW) & ((digitalRead(sens_2)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 3;
+      
+      if (num_inicial != num_final){
+        Serial.println("3");
+        num_inicial = 3;
+      }
+
+      
+      delay(espera);
+ }
+
+//////////     AMARILLO     /////////
+ else if ((digitalRead(sens_1) == HIGH) & (digitalRead(sens_2)== HIGH) & ((digitalRead(sens_3)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 4;
+      
+      if (num_inicial != num_final){
+        Serial.println("4");
+        num_inicial = 4;
+      }
+
+      
+      delay(1500);
+ }
+
+//////////     MORADO     /////////
+ else if ((digitalRead(sens_1) == HIGH) & (digitalRead(sens_3)== HIGH) & ((digitalRead(sens_2)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 5;
+      
+      if (num_inicial != num_final){
+        Serial.println("5");
+        num_inicial = 5;
+      }
+
+      
+      delay(1500);
+ }
+
+//////////     CIAN     /////////
+ else if ((digitalRead(sens_2) == HIGH) & (digitalRead(sens_3)== HIGH) & ((digitalRead(sens_1)== LOW))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 6;
+      
+      if (num_inicial != num_final){
+        Serial.println("6");
+        num_inicial = 6;
+      }
+
+      
+      delay(1500);
+ }
+
+ else if ((digitalRead(sens_2) == HIGH) & (digitalRead(sens_3)== HIGH) & ((digitalRead(sens_1)== HIGH))) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      num_final = 7;
+      
+      if (num_inicial != num_final){
+        Serial.println("7");
+        num_inicial = 7;
+      }
+
+      
+      delay(espera);
+ }
+/*
+ else if ((digitalRead(sens_4) == HIGH)) {
+      // Enviar el mensaje "sensor activado" por el puerto serial
+      Serial.println("7");
+      /*
+      digitalWrite(l_rojo , LOW);
+      digitalWrite(l_verde , LOW);
+      digitalWrite(l_azul , LOW);
+      digitalWrite(l_amarillo,LOW);
+      analogWrite(l_morado,0);
+      analogWrite(l_cian,0);
+      analogWrite(l_rgb,0);
+      */
+      delay(espera+aumento);
+ }
+
+/*
+
+
+}
+
+/*
+//////////////////////////////                      Colores led rgb                       ///////////////////////////////// 
+///*
+  // Esperamos a recibir un número desde Python
+  //while (!Serial.available()) {
+  //  delay(10);
+  //}
+
+  // Leemos el número enviado desde Python
+  if (Serial.available()>0){
+
+    numero = Serial.parseInt();
+
+    delay(100);
+
+
+  // Si el número es mayor o igual a 5, encendemos el LED
+  if (numero == 1) {
+    //analogWrite(LEDROJO, 255);
+    //delay(2000);
+  }
+  else if (numero == 2){
+    //analogWrite(LEDROJO, 0);
+    
+    //delay(2000);
+  }
+  else if (numero == 3) {
+    //analogWrite(LEDROJO, 0);
+    //delay(2000);
+  }
+  delay(espera);
+  }
+}
+
+*/
+
+
+
+
+    </code>
+  </pre>
+</div>
+
+<script>
+  function copyCodeToClipboard(header) {
+    var codeViewer = header.parentNode;
+    var code = codeViewer.querySelector("code");
+    var textToCopy = code.innerText;
+
+    var textarea = document.createElement("textarea");
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+
+    header.classList.add("clicked");
+    header.querySelector("button").textContent = "Copiado";
+
+    setTimeout(function () {
+      header.classList.remove("clicked");
+      header.querySelector("button").textContent = "Copiar código";
+    }, 2000);
+  }
+</script>
+
+<a class="face-button" href="/descargas/Publigrama_ard.rar" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<p><br/><br/><br/><br/><br/></p>
 <hr>
 
     </div>
@@ -672,159 +1512,11 @@
 
   </section>
   
-
-    
-    
-    
-
-    
-
-      
-
-        <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-          
-          
-          
-
-  <a href="/proyectos/1/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
-        
-        <div class="w-full thumbnail_card nozoom" style="background-image:url(/proyectos/1/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_1721557_600x0_resize_q75_box.jpg);"></div>
-        
-      
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/proyectos/1/">An External Article</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2019-01-24 00:00:00 &#43;0000 UTC">24 January 2019</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
-    
-    <span id="views_proyectos\1\index.md" title="views">0</span> 
-    
-    <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
-  </span>
-
-</span>
-</span><span class="px-2 text-primary-500">&middot;</span><span>
-    
-    <span id="likes_proyectos\1\index.md" title="likes">0</span> 
-    
-    <span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
-  </span>
-
-</span>
-</span>
-  
-
-  
-  
-</div>
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-          
-          
-        </section>
-
-    
-
-    
-
+  <section class="mt-10 prose dark:prose-invert">
+    <p class="py-8 border-t">
+      <em>There are no articles to list here yet.</em>
+    </p>
+  </section>
   
 
     
